@@ -6,6 +6,12 @@ A browser comparison of four sprite-animation workflows using one character: a m
 
 Compare platformer, arcade street, isometric and top-down RPG views. Switch between walking, running and jumping, pause and step through frames, adjust playback speed, and inspect ground travel or in-place motion.
 
+## View online
+
+[Open Sprite Tester](https://superlabsau.github.io/sprite-tester/).
+
+GitHub Pages publishes `site/dist` through `.github/workflows/pages.yml`. Changes to the site, playback tests or deployment workflow on `main` automatically run the tests and deploy. The workflow can also be run manually from GitHub Actions. No build step is required.
+
 ## Run locally
 
 Requires Python3. No JavaScript build or package installation is needed.
