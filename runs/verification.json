@@ -1,0 +1,174 @@
+{
+  "sheet_count": 24,
+  "frame_count": 144,
+  "results": [
+    {
+      "key": "a-platform-walk",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "a-platform-run",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "a-platform-jump",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "a-street-walk",
+      "frames": 6,
+      "cell": 128,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "a-street-run",
+      "frames": 6,
+      "cell": 128,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "a-street-jump",
+      "frames": 6,
+      "cell": 128,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "a-isometric-walk",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "a-isometric-run",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "a-isometric-jump",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "a-rpg-walk",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "a-rpg-run",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "a-rpg-jump",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-platform-walk",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-platform-run",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-platform-jump",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-street-walk",
+      "frames": 6,
+      "cell": 128,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-street-run",
+      "frames": 6,
+      "cell": 128,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-street-jump",
+      "frames": 6,
+      "cell": 128,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-isometric-walk",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-isometric-run",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-isometric-jump",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-rpg-walk",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-rpg-run",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    },
+    {
+      "key": "b-rpg-jump",
+      "frames": 6,
+      "cell": 64,
+      "pixel_audit": "pass",
+      "motion_audit": "pass"
+    }
+  ]
+}

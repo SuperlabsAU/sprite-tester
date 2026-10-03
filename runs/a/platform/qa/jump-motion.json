@@ -1,0 +1,107 @@
+{
+  "ok": true,
+  "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/a/platform/final/jump-sheet-clean.png",
+  "width": 384,
+  "height": 64,
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "row": 0,
+      "row_name": "east",
+      "cells": [
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 0,
+          "nontransparent_pixels": 418,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            19,
+            25,
+            44,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 1,
+          "nontransparent_pixels": 475,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            22,
+            10,
+            41,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 2,
+          "nontransparent_pixels": 439,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            22,
+            11,
+            41,
+            51
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 3,
+          "nontransparent_pixels": 410,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            23,
+            5,
+            40,
+            42
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 4,
+          "nontransparent_pixels": 470,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            22,
+            12,
+            42,
+            56
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 5,
+          "nontransparent_pixels": 406,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            22,
+            27,
+            42,
+            59
+          ]
+        }
+      ],
+      "frame_diffs": [
+        0.05798,
+        0.04379,
+        0.04569,
+        0.0534,
+        0.05613
+      ]
+    }
+  ]
+}

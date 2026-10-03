@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-03",
+  "character": "Adult corporate male, short dark hair, rectangular black glasses, plain black T-shirt, blue jeans, grey and white sneakers; no jacket, tie or props.",
+  "comparison": ["Character Animation Creator", "Pixel Art Agent Skill"],
+  "views": {"platform": {"cell":64,"direction":"east","design":"compact side-on platformer proportions"}, "street": {"cell":128,"direction":"east","design":"tall detailed arcade street-fighter proportions"}, "isometric": {"cell":64,"direction":"south-east","design":"elevated 2:1 isometric projection"}, "rpg": {"cell":64,"direction":"south","design":"overhead RPG foreshortened proportions"}},
+  "actions": ["walk","run","jump"],
+  "frames_per_action": 6,
+  "generation": "Built-in image_gen; independent action strips for each workflow, same visual identity and frame budget.",
+  "workflow_b_palette": "DawnBringer 32",
+  "display": "Four rows, two columns, eight animated sprite viewers; shared action, playback and speed controls."
+}

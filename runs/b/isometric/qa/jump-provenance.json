@@ -1,0 +1,18 @@
+{
+  "key": "b-isometric-jump",
+  "workflow": "b",
+  "view": "isometric",
+  "action": "jump",
+  "cell": 64,
+  "frames": 6,
+  "direction": "south-east",
+  "method": "imagegen",
+  "source": "runs/source/b-isometric-jump.png",
+  "prompt": "runs/prompts/b-isometric-jump.txt",
+  "final": "site/dist/assets/b-isometric-jump.png",
+  "geometry": "shared component extraction; uniform scale and ground line",
+  "palette": "DB32",
+  "pixel_audit": "pass",
+  "geometry_audit": "pass",
+  "motion_audit": "pass"
+}

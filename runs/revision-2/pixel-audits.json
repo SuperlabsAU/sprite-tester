@@ -1,0 +1,578 @@
+{
+  "a-isometric-jump": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-isometric-jump.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 32,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "a-isometric-run": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-isometric-run.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 32,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "a-isometric-walk": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-isometric-walk.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 32,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "a-platform-jump": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-platform-jump.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 32,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "a-platform-run": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-platform-run.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 32,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "a-platform-walk": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-platform-walk.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 32,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "a-rpg-jump": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-rpg-jump.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 32,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "a-rpg-run": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-rpg-run.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 32,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "a-rpg-walk": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-rpg-walk.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 32,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "a-street-jump": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-street-jump.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 98304,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 48,
+      "max_allowed": 48,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 768,
+      "height": 128,
+      "grid_size": 128,
+      "aligned": true
+    }
+  },
+  "a-street-run": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-street-run.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 98304,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 48,
+      "max_allowed": 48,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 768,
+      "height": 128,
+      "grid_size": 128,
+      "aligned": true
+    }
+  },
+  "a-street-walk": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/a-street-walk.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 98304,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 48,
+      "max_allowed": 48,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 768,
+      "height": 128,
+      "grid_size": 128,
+      "aligned": true
+    }
+  },
+  "b-isometric-jump": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-isometric-jump.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 20,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "b-isometric-run": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-isometric-run.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 20,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "b-isometric-walk": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-isometric-walk.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 21,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "b-platform-jump": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-platform-jump.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 20,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "b-platform-run": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-platform-run.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 21,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "b-platform-walk": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-platform-walk.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 21,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "b-rpg-jump": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-rpg-jump.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 22,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "b-rpg-run": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-rpg-run.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 22,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "b-rpg-walk": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-rpg-walk.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 24576,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 20,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 384,
+      "height": 64,
+      "grid_size": 64,
+      "aligned": true
+    }
+  },
+  "b-street-jump": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-street-jump.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 98304,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 22,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 768,
+      "height": 128,
+      "grid_size": 128,
+      "aligned": true
+    }
+  },
+  "b-street-run": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-street-run.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 98304,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 23,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 768,
+      "height": 128,
+      "grid_size": 128,
+      "aligned": true
+    }
+  },
+  "b-street-walk": {
+    "status": "pass",
+    "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/site/dist/assets/b-street-walk.png",
+    "antialiasing": {
+      "semi_transparent_pixels": 0,
+      "total_pixels": 98304,
+      "clean": true
+    },
+    "orphan_pixels": {
+      "orphan_pixels": 0,
+      "clean": true
+    },
+    "palette": {
+      "unique_colors": 22,
+      "max_allowed": 32,
+      "clean": true
+    },
+    "grid_alignment": {
+      "width": 768,
+      "height": 128,
+      "grid_size": 128,
+      "aligned": true
+    }
+  }
+}

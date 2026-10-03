@@ -1,0 +1,6 @@
+{
+  "aseprite_path": "/absolute/path/to/aseprite",
+  "temp_dir": "/tmp/sprite-tester-pixel-mcp",
+  "timeout": 60,
+  "log_level": "warn"
+}

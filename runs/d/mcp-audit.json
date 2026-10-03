@@ -1,0 +1,16 @@
+{
+  "tools": {
+    "create_canvas": 49,
+    "add_layer": 49,
+    "add_frame": 245,
+    "draw_pixels": 294,
+    "set_frame_duration": 294,
+    "create_tag": 49,
+    "get_sprite_info": 49,
+    "save_as": 49,
+    "export_spritesheet": 49
+  },
+  "errors": [],
+  "pluginArchiveSHA256": "c1d9cf5dd350ae960c3376554f43fa3ff17095ddfe78ed94ee071ec0a9c213fb",
+  "asepriteSourceSHA256": "fa9dd07a0c2a5ec91a4166333296bbb9e5c237933b59875d0cfee849d2358306"
+}

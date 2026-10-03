@@ -1,0 +1,194 @@
+{
+  "ok": true,
+  "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/a/isometric/final/jump-sheet-clean.png",
+  "width": 384,
+  "height": 64,
+  "errors": [],
+  "warnings": [],
+  "cells": [
+    {
+      "row": 0,
+      "row_name": "south-east",
+      "column": 0,
+      "nontransparent_pixels": 489,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        19,
+        25,
+        44,
+        58
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "south-east",
+      "column": 1,
+      "nontransparent_pixels": 580,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        22,
+        6,
+        42,
+        57
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "south-east",
+      "column": 2,
+      "nontransparent_pixels": 476,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        20,
+        11,
+        43,
+        47
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "south-east",
+      "column": 3,
+      "nontransparent_pixels": 511,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        17,
+        5,
+        46,
+        40
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "south-east",
+      "column": 4,
+      "nontransparent_pixels": 594,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        17,
+        11,
+        47,
+        54
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "south-east",
+      "column": 5,
+      "nontransparent_pixels": 509,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        17,
+        26,
+        46,
+        59
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "row": 0,
+      "row_name": "south-east",
+      "frame_diffs": [
+        0.07459,
+        0.05319,
+        0.05391,
+        0.06868,
+        0.07734
+      ],
+      "bbox_shift": 20.0,
+      "cells": [
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 0,
+          "nontransparent_pixels": 489,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            19,
+            25,
+            44,
+            58
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 1,
+          "nontransparent_pixels": 580,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            22,
+            6,
+            42,
+            57
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 2,
+          "nontransparent_pixels": 476,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            20,
+            11,
+            43,
+            47
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 3,
+          "nontransparent_pixels": 511,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            17,
+            5,
+            46,
+            40
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 4,
+          "nontransparent_pixels": 594,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            17,
+            11,
+            47,
+            54
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 5,
+          "nontransparent_pixels": 509,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            17,
+            26,
+            46,
+            59
+          ]
+        }
+      ]
+    }
+  ]
+}

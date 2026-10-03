@@ -1,0 +1,18 @@
+{
+  "key": "b-street-jump",
+  "workflow": "b",
+  "view": "street",
+  "action": "jump",
+  "cell": 128,
+  "frames": 6,
+  "direction": "east",
+  "method": "imagegen",
+  "source": "runs/source/b-street-jump.png",
+  "prompt": "runs/prompts/b-street-jump.txt",
+  "final": "site/dist/assets/b-street-jump.png",
+  "geometry": "shared component extraction; uniform scale and ground line",
+  "palette": "DB32",
+  "pixel_audit": "pass",
+  "geometry_audit": "pass",
+  "motion_audit": "pass"
+}

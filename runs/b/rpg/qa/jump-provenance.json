@@ -1,0 +1,18 @@
+{
+  "key": "b-rpg-jump",
+  "workflow": "b",
+  "view": "rpg",
+  "action": "jump",
+  "cell": 64,
+  "frames": 6,
+  "direction": "south",
+  "method": "imagegen",
+  "source": "runs/source/b-rpg-jump.png",
+  "prompt": "runs/prompts/b-rpg-jump.txt",
+  "final": "site/dist/assets/b-rpg-jump.png",
+  "geometry": "shared component extraction; uniform scale and ground line",
+  "palette": "DB32",
+  "pixel_audit": "pass",
+  "geometry_audit": "pass",
+  "motion_audit": "pass"
+}

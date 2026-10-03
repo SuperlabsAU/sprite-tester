@@ -1,0 +1,18 @@
+{
+  "key": "a-rpg-run",
+  "workflow": "a",
+  "view": "rpg",
+  "action": "run",
+  "cell": 64,
+  "frames": 6,
+  "direction": "south",
+  "method": "imagegen",
+  "source": "runs/source/a-rpg-run.png",
+  "prompt": "runs/prompts/a-rpg-run.txt",
+  "final": "site/dist/assets/a-rpg-run.png",
+  "geometry": "shared component extraction; uniform scale and ground line",
+  "palette": "adaptive 32",
+  "pixel_audit": "pass",
+  "geometry_audit": "pass",
+  "motion_audit": "pass"
+}

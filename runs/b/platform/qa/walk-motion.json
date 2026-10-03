@@ -1,0 +1,107 @@
+{
+  "ok": true,
+  "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/b/platform/final/walk-sheet-clean.png",
+  "width": 384,
+  "height": 64,
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "row": 0,
+      "row_name": "east",
+      "cells": [
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 0,
+          "nontransparent_pixels": 560,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            20,
+            13,
+            44,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 1,
+          "nontransparent_pixels": 449,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            25,
+            13,
+            39,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 2,
+          "nontransparent_pixels": 465,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            23,
+            13,
+            40,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 3,
+          "nontransparent_pixels": 536,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            19,
+            13,
+            44,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 4,
+          "nontransparent_pixels": 448,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            25,
+            13,
+            39,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 5,
+          "nontransparent_pixels": 545,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            20,
+            13,
+            43,
+            59
+          ]
+        }
+      ],
+      "frame_diffs": [
+        0.04477,
+        0.02675,
+        0.0501,
+        0.04667,
+        0.04352
+      ]
+    }
+  ]
+}

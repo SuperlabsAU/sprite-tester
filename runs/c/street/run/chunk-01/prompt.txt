@@ -1,0 +1,75 @@
+anime pixel art, modern HD-2D 2D side-scroller sprite style, clean pixel line art, soft pixel shading, consistent character identity, frame-consistent sprite animation
+
+REFERENCE GUIDED — VERY IMPORTANT
+Use the attached reference image as the canonical character design. Do NOT redesign, reinterpret the art style, alter the outfit, face, or proportions.
+
+Maintain EXACTLY these identity markers:
+- Adult corporate male with black rectangular glasses, short dark-brown hair and warm skin.
+- Plain black T-shirt, blue jeans, grey sneakers with white soles. No props.
+- Readable pixel-art clusters, consistent face and hair, fixed palette and camera within each action.
+- Detailed arcade street sprite, adult 6-head-tall proportions.
+
+VIEW / CAMERA:
+- STRICT 90° SIDE / PROFILE view — a 2D side-scroller / platformer sprite. The character faces fully to the RIGHT, in PURE profile: the torso, hips, and shoulders are seen EDGE-ON (turned 90° away from the camera), NOT facing the viewer. Only ONE side of the face is visible (one eye, one ear); the nose points right. This is NOT a 3/4 view and NOT a front-facing pose — do not rotate the torso toward the camera. Full body visible, feet on a common groundline
+- static camera, identical camera distance and angle in every panel
+- the character's feet rest on the SAME horizontal groundline in every panel (do not draw the ground itself — only keep the feet at a constant y)
+- EVERY panel keeps the SAME strict right-facing profile; do NOT let any panel drift into a 3/4 or front-facing pose
+
+STYLE:
+high quality anime pixel art, clean outlines, soft pixel shading, simple lighting, 2D illustration style, no realistic rendering, stable sprite consistency
+
+BACKGROUND — STRICT CHROMA KEY:
+- The ENTIRE background of the image MUST be a single SOLID FLAT pure chroma green: hex #00B140 (RGB 0, 177, 64).
+- The chroma green must be perfectly uniform across the whole sheet — NO gradients, NO shading, NO atmospheric perspective, NO lighting variation, NO vignette, NO patterns, NO scenery, NO ground, NO shadow on the background.
+- Every pixel that is not part of the subject must be exactly this same chroma green, including the spaces between panels.
+- The subject itself MUST NOT contain any pure greens that would be confused with the chroma key — if it uses green, shift those greens away from #00B140 (more saturated, more yellow, or darker) so chroma keying can cleanly separate it.
+- This green will be removed in post-processing — it is a chroma key, not part of the scene.
+
+ANIMATION TYPE: run
+
+ANIMATION DETAILS:
+Detailed arcade street sprite, adult 6-head-tall proportions. Full loop with visibly alternating left and right legs. Near leg lighter blue, far leg darker; keep limb identity fixed.
+
+FRAME-BY-FRAME MOTION DESIGN (this strip = frames 1..3 of 6 total):
+Frame 1 = contact, lead foot strikes, body leaning forward
+Frame 2 = down/compression, deep knee bend
+Frame 3 = drive, explosive push-off
+
+MOTION RULES:
+- the SAME character in every panel; only the pose changes
+- smooth, readable keyframe progression; this action should loop cleanly when applicable
+- no exaggerated deformation, no perspective changes, no scene changes, no style drift
+- identical proportions, palette, outfit, lighting, and facial features across all panels
+
+OUTPUT IMAGE DIMENSIONS — STRICT, REQUIRED BY image_gen
+- Generate the image at EXACTLY 1536 × 1024 pixels. This is a size your image_gen tool natively supports — request this size when calling image_gen.
+- The 1536 × 1024 canvas is divided into 3 equal vertical panels, each EXACTLY 512 × 1024 pixels.
+- Panel boundaries fall at integer x positions: 0, 512, 1024, 1536 pixels along the width.
+
+LAYOUT — ABSOLUTE RULES, NO EXCEPTIONS
+- EXACTLY 3 equal-width panels arranged left-to-right in ONE horizontal row. ONE row only, no second row.
+- Every panel has IDENTICAL width and IDENTICAL height — each panel is 512 × 1024 pixels. There must be no width drift between panels.
+- The full sheet is exactly 1536 × 1024 pixels, divisible into 3 equal 512 × 1024 slices.
+
+CHARACTER PLACEMENT INSIDE EACH PANEL — NON-NEGOTIABLE:
+- The character (including ALL of its silhouette extensions — hair, weapons, accessories, motion lines, FX, glow, shadow) occupies AT MOST 40% of the panel width and AT MOST 70% of the panel height — it fits inside a 204px × 716px central box, CENTERED both horizontally and vertically inside the 512×1024 panel.
+- Inside each panel, leave chroma-green margin of AT LEAST 153px LEFT, 153px RIGHT, 153px TOP, 153px BOTTOM — a thick band of pure chroma green between the character and every panel edge.
+- BETWEEN ANY TWO ADJACENT PANELS' SUBJECTS THERE MUST BE AT LEAST 307 CONSECUTIVE COLUMNS OF PURE CHROMA GREEN with ZERO subject pixels. Sparse panels are GOOD — pack loosely.
+- THE FIRST AND LAST PANELS ARE NOT EXCEPTIONS. The character must NEVER come within 153px of the image's left, right, top, or bottom edge — always a thick band of flat chroma green around the entire sheet.
+- The character has IDENTICAL bounding box, IDENTICAL pixel scale, and IDENTICAL vertical center across ALL 3 panels. Same height, same width, same head y-position, same feet y-position in every panel. Only the pose/variation changes between panels.
+- NO body part, weapon, hair strand, prop, or shadow may extend into a green margin or cross into a neighboring panel.
+- Panels are conceptually independent — there is NO spatial continuity between them. Do not draw one subject stretched across multiple panels.
+
+PANEL SEPARATION:
+- ZERO padding around the outer edges of the sheet. ZERO borders, gridlines, dividers, separators, frames, or labels between panels — the panels touch directly, separated only by the flat chroma green.
+- DO NOT add a second row. DO NOT pad to a square. DO NOT add letterbox bars. DO NOT add captions.
+
+OUTPUT FORMAT
+- ONE horizontal sprite sheet at exactly 1536 × 1024 pixels
+- 3 panels left-to-right, each 512 × 1024 pixels
+- no borders, no gridlines, no labels, no text
+- game-ready frames
+- Call image_gen with size 1536x1024.
+
+After image_gen finishes, output ONLY one line of JSON to stdout, nothing else, no prose, no markdown fences:
+{"raw_png_path": "<absolute path to the generated PNG file>"}

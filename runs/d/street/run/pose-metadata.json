@@ -1,0 +1,304 @@
+{
+  "frames": [
+    {
+      "feet": [
+        {
+          "side": -1,
+          "phase": 0.58333,
+          "stance": false,
+          "world": [
+            -2.8749999999999987,
+            -2.3,
+            7.391036260090295
+          ],
+          "screen": [
+            58.25,
+            106.21792747981941
+          ]
+        },
+        {
+          "side": 1,
+          "phase": 0.08333,
+          "stance": true,
+          "world": [
+            5.75,
+            2.3,
+            0
+          ],
+          "screen": [
+            75.5,
+            121.0
+          ]
+        }
+      ],
+      "stride": [
+        138.0,
+        0.0
+      ],
+      "rootLift": 0,
+      "root": [
+        64.0,
+        79
+      ],
+      "headOrigin": [
+        69.0,
+        43.0
+      ],
+      "cell": 128
+    },
+    {
+      "feet": [
+        {
+          "side": -1,
+          "phase": 0.75,
+          "stance": false,
+          "world": [
+            2.875,
+            -2.3,
+            7.391036260090294
+          ],
+          "screen": [
+            69.75,
+            106.21792747981941
+          ]
+        },
+        {
+          "side": 1,
+          "phase": 0.25,
+          "stance": true,
+          "world": [
+            -5.75,
+            2.3,
+            0
+          ],
+          "screen": [
+            52.5,
+            121.0
+          ]
+        }
+      ],
+      "stride": [
+        138.0,
+        0.0
+      ],
+      "rootLift": 0,
+      "root": [
+        64.0,
+        79
+      ],
+      "headOrigin": [
+        69.0,
+        43.0
+      ],
+      "cell": 128
+    },
+    {
+      "feet": [
+        {
+          "side": -1,
+          "phase": 0.91667,
+          "stance": false,
+          "world": [
+            8.624999999999995,
+            -2.3,
+            3.0614674589207254
+          ],
+          "screen": [
+            81.24999999999999,
+            110.87706508215855
+          ]
+        },
+        {
+          "side": 1,
+          "phase": 0.41667,
+          "stance": false,
+          "world": [
+            -8.625000000000002,
+            2.3,
+            3.0614674589207174
+          ],
+          "screen": [
+            46.75,
+            110.87706508215857
+          ]
+        }
+      ],
+      "stride": [
+        138.0,
+        0.0
+      ],
+      "rootLift": 4,
+      "root": [
+        64.0,
+        75
+      ],
+      "headOrigin": [
+        69.0,
+        39.0
+      ],
+      "cell": 128
+    },
+    {
+      "feet": [
+        {
+          "side": -1,
+          "phase": 0.08333,
+          "stance": true,
+          "world": [
+            5.749999999999989,
+            -2.3,
+            0
+          ],
+          "screen": [
+            75.49999999999997,
+            121.0
+          ]
+        },
+        {
+          "side": 1,
+          "phase": 0.58333,
+          "stance": false,
+          "world": [
+            -2.8749999999999987,
+            2.3,
+            7.391036260090295
+          ],
+          "screen": [
+            58.25,
+            106.21792747981941
+          ]
+        }
+      ],
+      "stride": [
+        138.0,
+        0.0
+      ],
+      "rootLift": 0,
+      "root": [
+        64.0,
+        79
+      ],
+      "headOrigin": [
+        69.0,
+        43.0
+      ],
+      "cell": 128
+    },
+    {
+      "feet": [
+        {
+          "side": -1,
+          "phase": 0.25,
+          "stance": true,
+          "world": [
+            -5.75,
+            -2.3,
+            0
+          ],
+          "screen": [
+            52.5,
+            121.0
+          ]
+        },
+        {
+          "side": 1,
+          "phase": 0.75,
+          "stance": false,
+          "world": [
+            2.875,
+            2.3,
+            7.391036260090294
+          ],
+          "screen": [
+            69.75,
+            106.21792747981941
+          ]
+        }
+      ],
+      "stride": [
+        138.0,
+        0.0
+      ],
+      "rootLift": 0,
+      "root": [
+        64.0,
+        79
+      ],
+      "headOrigin": [
+        69.0,
+        43.0
+      ],
+      "cell": 128
+    },
+    {
+      "feet": [
+        {
+          "side": -1,
+          "phase": 0.41667,
+          "stance": false,
+          "world": [
+            -8.624999999999998,
+            -2.3,
+            3.0614674589207205
+          ],
+          "screen": [
+            46.75,
+            110.87706508215857
+          ]
+        },
+        {
+          "side": 1,
+          "phase": 0.91667,
+          "stance": false,
+          "world": [
+            8.625000000000002,
+            2.3,
+            3.0614674589207156
+          ],
+          "screen": [
+            81.25,
+            110.87706508215857
+          ]
+        }
+      ],
+      "stride": [
+        138.0,
+        0.0
+      ],
+      "rootLift": 4,
+      "root": [
+        64.0,
+        75
+      ],
+      "headOrigin": [
+        69.0,
+        39.0
+      ],
+      "cell": 128
+    }
+  ],
+  "timing": [
+    90,
+    90,
+    90,
+    90,
+    90,
+    90
+  ],
+  "info": {
+    "color_mode": "rgb",
+    "frame_count": 6,
+    "height": 128,
+    "layer_count": 2,
+    "layers": [
+      "Layer 1",
+      "Character"
+    ],
+    "width": 128
+  },
+  "export": {
+    "frame_count": 6,
+    "metadata_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/d/street/run/strip.json",
+    "spritesheet_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/d/street/run/strip.png"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "key": "a-isometric-walk",
+  "workflow": "a",
+  "view": "isometric",
+  "action": "walk",
+  "cell": 64,
+  "frames": 6,
+  "direction": "south-east",
+  "method": "imagegen",
+  "source": "runs/source/a-isometric-walk.png",
+  "prompt": "runs/prompts/a-isometric-walk.txt",
+  "final": "site/dist/assets/a-isometric-walk.png",
+  "geometry": "shared component extraction; uniform scale and ground line",
+  "palette": "adaptive 32",
+  "pixel_audit": "pass",
+  "geometry_audit": "pass",
+  "motion_audit": "pass"
+}

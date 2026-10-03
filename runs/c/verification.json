@@ -1,0 +1,673 @@
+{
+  "c-platform-walk": {
+    "frames": 6,
+    "cell": 64,
+    "stageOffsetY": 3,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      58,
+      58,
+      58,
+      58,
+      58,
+      58
+    ],
+    "nativeBounds": [
+      [
+        19,
+        9,
+        44,
+        56
+      ],
+      [
+        23,
+        8,
+        40,
+        56
+      ],
+      [
+        19,
+        9,
+        44,
+        56
+      ],
+      [
+        19,
+        8,
+        44,
+        56
+      ],
+      [
+        19,
+        9,
+        44,
+        56
+      ],
+      [
+        23,
+        9,
+        41,
+        56
+      ]
+    ],
+    "qcWarnings": [
+      "panel 1: bbox width 252px deviates >20% from median 353px \u2014 likely a clipped frame or wrong component selected",
+      "panel 2: bbox width 265px deviates >20% from median 359px \u2014 likely a clipped frame or wrong component selected"
+    ],
+    "clippedPixels": 0
+  },
+  "c-platform-run": {
+    "frames": 6,
+    "cell": 64,
+    "stageOffsetY": 3,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      57,
+      57,
+      58,
+      55,
+      57,
+      58
+    ],
+    "nativeBounds": [
+      [
+        15,
+        9,
+        48,
+        55
+      ],
+      [
+        21,
+        10,
+        43,
+        55
+      ],
+      [
+        15,
+        9,
+        48,
+        56
+      ],
+      [
+        13,
+        11,
+        51,
+        53
+      ],
+      [
+        14,
+        9,
+        50,
+        55
+      ],
+      [
+        17,
+        9,
+        46,
+        56
+      ]
+    ],
+    "qcWarnings": [
+      "panel 1: bbox width 282px deviates >20% from median 412px \u2014 likely a clipped frame or wrong component selected",
+      "panel 2: bbox width 349px deviates >20% from median 437px \u2014 likely a clipped frame or wrong component selected"
+    ],
+    "clippedPixels": 0
+  },
+  "c-platform-jump": {
+    "frames": 6,
+    "cell": 64,
+    "stageOffsetY": 3,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      51,
+      56,
+      58,
+      53,
+      58,
+      52
+    ],
+    "nativeBounds": [
+      [
+        20,
+        15,
+        43,
+        49
+      ],
+      [
+        20,
+        10,
+        43,
+        54
+      ],
+      [
+        21,
+        8,
+        43,
+        56
+      ],
+      [
+        21,
+        13,
+        43,
+        51
+      ],
+      [
+        21,
+        9,
+        42,
+        56
+      ],
+      [
+        19,
+        14,
+        43,
+        50
+      ]
+    ],
+    "qcWarnings": [
+      "panel 0: bbox height 449px deviates >20% from median 576px",
+      "panel 1: bbox height 562px deviates >20% from median 459px"
+    ],
+    "clippedPixels": 0
+  },
+  "c-street-walk": {
+    "frames": 6,
+    "cell": 128,
+    "stageOffsetY": 11,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      122,
+      121,
+      122,
+      121,
+      122,
+      121
+    ],
+    "nativeBounds": [
+      [
+        39,
+        16,
+        89,
+        112
+      ],
+      [
+        44,
+        16,
+        84,
+        111
+      ],
+      [
+        41,
+        17,
+        86,
+        112
+      ],
+      [
+        37,
+        17,
+        90,
+        111
+      ],
+      [
+        39,
+        16,
+        88,
+        112
+      ],
+      [
+        37,
+        17,
+        90,
+        111
+      ]
+    ],
+    "qcWarnings": [],
+    "clippedPixels": 0
+  },
+  "c-street-run": {
+    "frames": 6,
+    "cell": 128,
+    "stageOffsetY": 11,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      121,
+      119,
+      122,
+      114,
+      121,
+      122
+    ],
+    "nativeBounds": [
+      [
+        32,
+        16,
+        96,
+        111
+      ],
+      [
+        42,
+        19,
+        86,
+        109
+      ],
+      [
+        28,
+        16,
+        100,
+        112
+      ],
+      [
+        26,
+        25,
+        102,
+        104
+      ],
+      [
+        35,
+        18,
+        93,
+        111
+      ],
+      [
+        31,
+        16,
+        96,
+        112
+      ]
+    ],
+    "qcWarnings": [
+      "panel 1: bbox width 307px deviates >20% from median 431px \u2014 likely a clipped frame or wrong component selected"
+    ],
+    "clippedPixels": 0
+  },
+  "c-street-jump": {
+    "frames": 6,
+    "cell": 128,
+    "stageOffsetY": 11,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      106,
+      117,
+      122,
+      120,
+      122,
+      109
+    ],
+    "nativeBounds": [
+      [
+        43,
+        31,
+        85,
+        96
+      ],
+      [
+        41,
+        21,
+        86,
+        107
+      ],
+      [
+        44,
+        16,
+        83,
+        112
+      ],
+      [
+        43,
+        18,
+        85,
+        110
+      ],
+      [
+        39,
+        16,
+        89,
+        112
+      ],
+      [
+        39,
+        29,
+        88,
+        99
+      ]
+    ],
+    "qcWarnings": [
+      "panel 0: bbox height 480px deviates >20% from median 625px",
+      "panel 2: bbox height 454px deviates >20% from median 583px"
+    ],
+    "clippedPixels": 0
+  },
+  "c-isometric-walk": {
+    "frames": 6,
+    "cell": 64,
+    "stageOffsetY": 3,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      58,
+      58,
+      58,
+      58,
+      58,
+      57
+    ],
+    "nativeBounds": [
+      [
+        21,
+        8,
+        42,
+        56
+      ],
+      [
+        23,
+        8,
+        41,
+        56
+      ],
+      [
+        21,
+        8,
+        42,
+        56
+      ],
+      [
+        21,
+        8,
+        42,
+        56
+      ],
+      [
+        21,
+        9,
+        43,
+        56
+      ],
+      [
+        21,
+        10,
+        42,
+        55
+      ]
+    ],
+    "qcWarnings": [],
+    "clippedPixels": 0
+  },
+  "c-isometric-run": {
+    "frames": 6,
+    "cell": 64,
+    "stageOffsetY": 3,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      58,
+      57,
+      57,
+      54,
+      57,
+      58
+    ],
+    "nativeBounds": [
+      [
+        17,
+        8,
+        46,
+        56
+      ],
+      [
+        21,
+        9,
+        43,
+        55
+      ],
+      [
+        17,
+        8,
+        46,
+        55
+      ],
+      [
+        16,
+        11,
+        47,
+        52
+      ],
+      [
+        18,
+        9,
+        46,
+        55
+      ],
+      [
+        21,
+        8,
+        43,
+        56
+      ]
+    ],
+    "qcWarnings": [
+      "panel 1: bbox width 295px deviates >20% from median 385px \u2014 likely a clipped frame or wrong component selected"
+    ],
+    "clippedPixels": 0
+  },
+  "c-isometric-jump": {
+    "frames": 6,
+    "cell": 64,
+    "stageOffsetY": 3,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      52,
+      57,
+      58,
+      54,
+      58,
+      53
+    ],
+    "nativeBounds": [
+      [
+        19,
+        15,
+        44,
+        50
+      ],
+      [
+        19,
+        9,
+        44,
+        55
+      ],
+      [
+        20,
+        8,
+        44,
+        56
+      ],
+      [
+        16,
+        13,
+        47,
+        52
+      ],
+      [
+        18,
+        9,
+        46,
+        56
+      ],
+      [
+        19,
+        14,
+        45,
+        51
+      ]
+    ],
+    "qcWarnings": [
+      "panel 0: bbox height 465px deviates >20% from median 598px"
+    ],
+    "clippedPixels": 0
+  },
+  "c-rpg-walk": {
+    "frames": 6,
+    "cell": 64,
+    "stageOffsetY": 3,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      57,
+      57,
+      58,
+      58,
+      58,
+      58
+    ],
+    "nativeBounds": [
+      [
+        22,
+        8,
+        41,
+        55
+      ],
+      [
+        22,
+        8,
+        41,
+        55
+      ],
+      [
+        22,
+        8,
+        41,
+        56
+      ],
+      [
+        23,
+        8,
+        41,
+        56
+      ],
+      [
+        22,
+        8,
+        41,
+        56
+      ],
+      [
+        22,
+        8,
+        41,
+        56
+      ]
+    ],
+    "qcWarnings": [],
+    "clippedPixels": 0
+  },
+  "c-rpg-run": {
+    "frames": 6,
+    "cell": 64,
+    "stageOffsetY": 3,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      57,
+      56,
+      58,
+      51,
+      57,
+      58
+    ],
+    "nativeBounds": [
+      [
+        21,
+        8,
+        43,
+        55
+      ],
+      [
+        20,
+        10,
+        43,
+        54
+      ],
+      [
+        21,
+        8,
+        43,
+        56
+      ],
+      [
+        20,
+        14,
+        43,
+        49
+      ],
+      [
+        21,
+        8,
+        43,
+        55
+      ],
+      [
+        21,
+        8,
+        42,
+        56
+      ]
+    ],
+    "qcWarnings": [
+      "panel 0: bbox height 449px deviates >20% from median 591px"
+    ],
+    "clippedPixels": 0
+  },
+  "c-rpg-jump": {
+    "frames": 6,
+    "cell": 64,
+    "stageOffsetY": 3,
+    "alphaMode": "native soft alpha; no palette remap",
+    "soleY": [
+      51,
+      55,
+      58,
+      57,
+      58,
+      54
+    ],
+    "nativeBounds": [
+      [
+        21,
+        14,
+        43,
+        49
+      ],
+      [
+        18,
+        10,
+        45,
+        53
+      ],
+      [
+        21,
+        8,
+        43,
+        56
+      ],
+      [
+        19,
+        8,
+        45,
+        55
+      ],
+      [
+        15,
+        9,
+        49,
+        56
+      ],
+      [
+        18,
+        12,
+        46,
+        52
+      ]
+    ],
+    "qcWarnings": [
+      "panel 1: bbox width 363px deviates >20% from median 302px \u2014 likely a clipped frame or wrong component selected",
+      "panel 1: bbox width 388px deviates >20% from median 316px \u2014 likely a clipped frame or wrong component selected"
+    ],
+    "clippedPixels": 0
+  }
+}

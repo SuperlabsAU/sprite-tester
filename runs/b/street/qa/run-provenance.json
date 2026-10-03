@@ -1,0 +1,18 @@
+{
+  "key": "b-street-run",
+  "workflow": "b",
+  "view": "street",
+  "action": "run",
+  "cell": 128,
+  "frames": 6,
+  "direction": "east",
+  "method": "imagegen",
+  "source": "runs/source/b-street-run.png",
+  "prompt": "runs/prompts/b-street-run.txt",
+  "final": "site/dist/assets/b-street-run.png",
+  "geometry": "shared component extraction; uniform scale and ground line",
+  "palette": "DB32",
+  "pixel_audit": "pass",
+  "geometry_audit": "pass",
+  "motion_audit": "pass"
+}

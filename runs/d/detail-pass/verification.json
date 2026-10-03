@@ -1,0 +1,86 @@
+{
+  "rpg-walk": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 15,
+    "coloursAfter": 26
+  },
+  "rpg-jump": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 15,
+    "coloursAfter": 27
+  },
+  "rpg-run": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 15,
+    "coloursAfter": 26
+  },
+  "platform-walk": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 14,
+    "coloursAfter": 27
+  },
+  "platform-jump": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 15,
+    "coloursAfter": 27
+  },
+  "platform-run": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 15,
+    "coloursAfter": 27
+  },
+  "street-walk": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 14,
+    "coloursAfter": 28
+  },
+  "street-jump": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 15,
+    "coloursAfter": 28
+  },
+  "street-run": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 15,
+    "coloursAfter": 28
+  },
+  "isometric-walk": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 15,
+    "coloursAfter": 26
+  },
+  "isometric-jump": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 15,
+    "coloursAfter": 26
+  },
+  "isometric-run": {
+    "movementUnchanged": true,
+    "timingUnchanged": true,
+    "exactMCPPixels": true,
+    "coloursBefore": 15,
+    "coloursAfter": 26
+  }
+}

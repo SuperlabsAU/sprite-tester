@@ -1,0 +1,12 @@
+__pycache__/
+.DS_Store
+.local-tools/
+node_modules/
+.sites-runtime/
+site/.openai/
+runs/d/pixel-mcp-config.json
+runs/d/mcp-calls.jsonl
+runs/d/mcp-calls.jsonl.gz
+runs/d/*build*.log
+runs/d/mcp-stderr.log
+vendor/skills/pixel-plugin/bin/pixel-mcp-*

@@ -1,0 +1,68 @@
+{
+  "reference": {
+    "source_type": "file",
+    "source": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/source/character-reference.png",
+    "used_for_generation": true,
+    "identity_notes": [
+      "Adult male",
+      "rectangular black glasses",
+      "short dark hair",
+      "black T-shirt",
+      "blue jeans",
+      "grey and white sneakers"
+    ]
+  },
+  "scope": {
+    "sizes": [
+      64
+    ],
+    "actions": [
+      "walk",
+      "run",
+      "jump"
+    ],
+    "directions": [
+      "south"
+    ],
+    "frames": 6
+  },
+  "generation": {
+    "method": "imagegen",
+    "imagegen_output_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/source/a-rpg-walk.png",
+    "procedural": false,
+    "text_only": false,
+    "imported_contact_sheet": false
+  },
+  "strips": [
+    {
+      "cell": 64,
+      "action": "walk",
+      "direction": "south",
+      "method": "imagegen",
+      "imagegen_output_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/source/a-rpg-walk.png",
+      "source_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/a/rpg/generated/walk-south.png",
+      "prompt_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/prompts/a-rpg-walk.txt"
+    },
+    {
+      "cell": 64,
+      "action": "run",
+      "direction": "south",
+      "method": "imagegen",
+      "imagegen_output_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/source/a-rpg-run.png",
+      "source_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/a/rpg/generated/run-south.png",
+      "prompt_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/prompts/a-rpg-run.txt"
+    },
+    {
+      "cell": 64,
+      "action": "jump",
+      "direction": "south",
+      "method": "imagegen",
+      "imagegen_output_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/source/a-rpg-jump.png",
+      "source_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/a/rpg/generated/jump-south.png",
+      "prompt_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/prompts/a-rpg-jump.txt"
+    }
+  ],
+  "visual_review": {
+    "path": "qa/visual-review.json"
+  }
+}

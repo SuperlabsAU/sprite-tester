@@ -1,0 +1,18 @@
+{
+  "key": "b-street-walk",
+  "workflow": "b",
+  "view": "street",
+  "action": "walk",
+  "cell": 128,
+  "frames": 6,
+  "direction": "east",
+  "method": "imagegen",
+  "source": "runs/source/b-street-walk.png",
+  "prompt": "runs/prompts/b-street-walk.txt",
+  "final": "site/dist/assets/b-street-walk.png",
+  "geometry": "shared component extraction; uniform scale and ground line",
+  "palette": "DB32",
+  "pixel_audit": "pass",
+  "geometry_audit": "pass",
+  "motion_audit": "pass"
+}

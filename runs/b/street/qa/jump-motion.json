@@ -1,0 +1,107 @@
+{
+  "ok": true,
+  "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/b/street/final/jump-sheet-clean.png",
+  "width": 768,
+  "height": 128,
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "row": 0,
+      "row_name": "east",
+      "cells": [
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 0,
+          "nontransparent_pixels": 1629,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            38,
+            61,
+            89,
+            123
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 1,
+          "nontransparent_pixels": 1960,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            45,
+            15,
+            83,
+            121
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 2,
+          "nontransparent_pixels": 1583,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            46,
+            26,
+            82,
+            105
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 3,
+          "nontransparent_pixels": 1597,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            45,
+            19,
+            83,
+            87
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 4,
+          "nontransparent_pixels": 1979,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            38,
+            25,
+            90,
+            118
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 5,
+          "nontransparent_pixels": 1635,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            42,
+            61,
+            85,
+            123
+          ]
+        }
+      ],
+      "frame_diffs": [
+        0.06968,
+        0.04973,
+        0.03883,
+        0.05392,
+        0.06937
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "cell": 128,
+  "columns": 6,
+  "rows": 1,
+  "action": "run",
+  "directions": [
+    "east"
+  ],
+  "rows_meta": [
+    {
+      "row": 0,
+      "action": "run",
+      "direction": "east",
+      "frames": 6
+    }
+  ]
+}

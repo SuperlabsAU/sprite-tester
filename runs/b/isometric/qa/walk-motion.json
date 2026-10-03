@@ -1,0 +1,107 @@
+{
+  "ok": true,
+  "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/b/isometric/final/walk-sheet-clean.png",
+  "width": 384,
+  "height": 64,
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "row": 0,
+      "row_name": "south-east",
+      "cells": [
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 0,
+          "nontransparent_pixels": 592,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            21,
+            12,
+            43,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 1,
+          "nontransparent_pixels": 553,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            22,
+            13,
+            41,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 2,
+          "nontransparent_pixels": 561,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            23,
+            12,
+            40,
+            58
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 3,
+          "nontransparent_pixels": 596,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            20,
+            13,
+            43,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 4,
+          "nontransparent_pixels": 573,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            21,
+            13,
+            42,
+            58
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "south-east",
+          "column": 5,
+          "nontransparent_pixels": 541,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            22,
+            13,
+            41,
+            59
+          ]
+        }
+      ],
+      "frame_diffs": [
+        0.04132,
+        0.02903,
+        0.04596,
+        0.03199,
+        0.04209
+      ]
+    }
+  ]
+}

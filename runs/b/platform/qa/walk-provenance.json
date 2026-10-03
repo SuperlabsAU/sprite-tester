@@ -1,0 +1,18 @@
+{
+  "key": "b-platform-walk",
+  "workflow": "b",
+  "view": "platform",
+  "action": "walk",
+  "cell": 64,
+  "frames": 6,
+  "direction": "east",
+  "method": "imagegen",
+  "source": "runs/source/b-platform-walk.png",
+  "prompt": "runs/prompts/b-platform-walk.txt",
+  "final": "site/dist/assets/b-platform-walk.png",
+  "geometry": "shared component extraction; uniform scale and ground line",
+  "palette": "DB32",
+  "pixel_audit": "pass",
+  "geometry_audit": "pass",
+  "motion_audit": "pass"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/a/street/final/walk-sheet-clean.png",
+  "antialiasing": {
+    "semi_transparent_pixels": 0,
+    "total_pixels": 98304,
+    "clean": true
+  },
+  "orphan_pixels": {
+    "orphan_pixels": 0,
+    "clean": true
+  },
+  "palette": {
+    "unique_colors": 48,
+    "max_allowed": 48,
+    "clean": true
+  },
+  "grid_alignment": {
+    "width": 768,
+    "height": 128,
+    "grid_size": 128,
+    "aligned": true
+  }
+}

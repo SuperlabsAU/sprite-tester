@@ -1,0 +1,11 @@
+{
+  "accepted": true,
+  "reviewer_notes": "Accepted as a first-pass comparison sample after reviewing all six-frame contact sheets and the three actions in all eight browser viewers. Identity, pose separation, jump elevation and camera distinctions are readable. Approximate perspective and six-frame motion require further art direction before production use.",
+  "checks": {
+    "reference_identity": "pass",
+    "direction": "pass",
+    "animation_readable": "pass",
+    "frame_separation": "pass",
+    "not_procedural": "pass"
+  }
+}

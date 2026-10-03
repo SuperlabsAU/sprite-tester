@@ -1,0 +1,18 @@
+{
+  "key": "b-platform-jump",
+  "workflow": "b",
+  "view": "platform",
+  "action": "jump",
+  "cell": 64,
+  "frames": 6,
+  "direction": "east",
+  "method": "imagegen",
+  "source": "runs/source/b-platform-jump.png",
+  "prompt": "runs/prompts/b-platform-jump.txt",
+  "final": "site/dist/assets/b-platform-jump.png",
+  "geometry": "shared component extraction; uniform scale and ground line",
+  "palette": "DB32",
+  "pixel_audit": "pass",
+  "geometry_audit": "pass",
+  "motion_audit": "pass"
+}

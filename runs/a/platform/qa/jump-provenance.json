@@ -1,0 +1,18 @@
+{
+  "key": "a-platform-jump",
+  "workflow": "a",
+  "view": "platform",
+  "action": "jump",
+  "cell": 64,
+  "frames": 6,
+  "direction": "east",
+  "method": "imagegen",
+  "source": "runs/source/a-platform-jump.png",
+  "prompt": "runs/prompts/a-platform-jump.txt",
+  "final": "site/dist/assets/a-platform-jump.png",
+  "geometry": "shared component extraction; uniform scale and ground line",
+  "palette": "adaptive 32",
+  "pixel_audit": "pass",
+  "geometry_audit": "pass",
+  "motion_audit": "pass"
+}

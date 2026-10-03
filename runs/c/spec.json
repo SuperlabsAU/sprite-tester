@@ -1,0 +1,39 @@
+{
+  "upstream": "https://github.com/gpwork4u/sprite-gen",
+  "template": "sidescroller_character",
+  "views": {
+    "platform": [
+      "side",
+      64,
+      "Compact 3-head-tall platformer sprite."
+    ],
+    "street": [
+      "side",
+      128,
+      "Detailed arcade street sprite, adult 6-head-tall proportions."
+    ],
+    "isometric": [
+      "3/4",
+      64,
+      "Isometric30 degree overhead view, facing southeast/lower-right; fixed2:1 ground projection."
+    ],
+    "rpg": [
+      "topdown",
+      64,
+      "RPG55 degree overhead view, facing due south/downscreen; visible top of head."
+    ]
+  },
+  "frames": 6,
+  "chunks": [
+    3,
+    3
+  ],
+  "design": [
+    "Adult corporate male with black rectangular glasses, short dark-brown hair and warm skin.",
+    "Plain black T-shirt, blue jeans, grey sneakers with white soles. No props.",
+    "Readable pixel-art clusters, consistent face and hair, fixed palette and camera within each action."
+  ],
+  "generation_transport": "app built-in image_gen; no CLI subprocess",
+  "processor": "unmodified sprite_gen.postprocess.process_sheet",
+  "reference": "runs/source/character-reference.png"
+}

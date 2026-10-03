@@ -1,0 +1,18 @@
+{
+  "key": "a-platform-walk",
+  "workflow": "a",
+  "view": "platform",
+  "action": "walk",
+  "cell": 64,
+  "frames": 6,
+  "direction": "east",
+  "method": "imagegen",
+  "source": "runs/source/a-platform-walk.png",
+  "prompt": "runs/prompts/a-platform-walk.txt",
+  "final": "site/dist/assets/a-platform-walk.png",
+  "geometry": "shared component extraction; uniform scale and ground line",
+  "palette": "adaptive 32",
+  "pixel_audit": "pass",
+  "geometry_audit": "pass",
+  "motion_audit": "pass"
+}

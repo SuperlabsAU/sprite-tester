@@ -1,0 +1,194 @@
+{
+  "ok": true,
+  "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/b/street/final/walk-sheet-clean.png",
+  "width": 768,
+  "height": 128,
+  "errors": [],
+  "warnings": [],
+  "cells": [
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 0,
+      "nontransparent_pixels": 2225,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        37,
+        30,
+        90,
+        122
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 1,
+      "nontransparent_pixels": 2048,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        44,
+        31,
+        83,
+        123
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 2,
+      "nontransparent_pixels": 1939,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        40,
+        30,
+        88,
+        123
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 3,
+      "nontransparent_pixels": 2252,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        38,
+        31,
+        90,
+        123
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 4,
+      "nontransparent_pixels": 1970,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        45,
+        31,
+        82,
+        123
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 5,
+      "nontransparent_pixels": 2165,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        38,
+        30,
+        90,
+        123
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "row": 0,
+      "row_name": "east",
+      "frame_diffs": [
+        0.04568,
+        0.05041,
+        0.03619,
+        0.04571,
+        0.04251
+      ],
+      "bbox_shift": 1.0,
+      "cells": [
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 0,
+          "nontransparent_pixels": 2225,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            37,
+            30,
+            90,
+            122
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 1,
+          "nontransparent_pixels": 2048,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            44,
+            31,
+            83,
+            123
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 2,
+          "nontransparent_pixels": 1939,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            40,
+            30,
+            88,
+            123
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 3,
+          "nontransparent_pixels": 2252,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            38,
+            31,
+            90,
+            123
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 4,
+          "nontransparent_pixels": 1970,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            45,
+            31,
+            82,
+            123
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 5,
+          "nontransparent_pixels": 2165,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            38,
+            30,
+            90,
+            123
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "mode": "keep_bg",
+  "raw_input": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/c/isometric/run/chunk-01/raw.png",
+  "rows": 1,
+  "cols": 3,
+  "cell_size": 128,
+  "frames": [
+    {
+      "panel": 0,
+      "panel_bounds_raw": [
+        0,
+        440
+      ],
+      "expanded_bounds_raw": [
+        0,
+        550
+      ],
+      "component_bbox_local": [
+        66,
+        211,
+        451,
+        826
+      ],
+      "component_bbox_size": [
+        385,
+        615
+      ],
+      "component_area": 95897,
+      "component_count": 1,
+      "owned_component_count": 1,
+      "touch_left": false,
+      "touch_right": false,
+      "touch_top": false,
+      "touch_bottom": false,
+      "clipped_at_image_edge": false,
+      "clipped_at_internal_cut": false,
+      "content_aware_slice": true,
+      "cut_method": "valley"
+    },
+    {
+      "panel": 1,
+      "panel_bounds_raw": [
+        440,
+        887
+      ],
+      "expanded_bounds_raw": [
+        329,
+        998
+      ],
+      "component_bbox_local": [
+        274,
+        234,
+        569,
+        826
+      ],
+      "component_bbox_size": [
+        295,
+        592
+      ],
+      "component_area": 82482,
+      "component_count": 3,
+      "owned_component_count": 1,
+      "touch_left": false,
+      "touch_right": false,
+      "touch_top": false,
+      "touch_bottom": false,
+      "clipped_at_image_edge": false,
+      "clipped_at_internal_cut": false,
+      "content_aware_slice": true,
+      "cut_method": "valley"
+    },
+    {
+      "panel": 2,
+      "panel_bounds_raw": [
+        887,
+        1536
+      ],
+      "expanded_bounds_raw": [
+        725,
+        1536
+      ],
+      "component_bbox_local": [
+        342,
+        218,
+        728,
+        815
+      ],
+      "component_bbox_size": [
+        386,
+        597
+      ],
+      "component_area": 95710,
+      "component_count": 2,
+      "owned_component_count": 1,
+      "touch_left": false,
+      "touch_right": false,
+      "touch_top": false,
+      "touch_bottom": false,
+      "clipped_at_image_edge": false,
+      "clipped_at_internal_cut": false,
+      "content_aware_slice": true,
+      "cut_method": "valley"
+    }
+  ],
+  "edge_touch_frames": [],
+  "auto_rembg": true,
+  "qc": {
+    "warnings": [
+      "panel 1: bbox width 295px deviates >20% from median 385px \u2014 likely a clipped frame or wrong component selected"
+    ],
+    "edge_touch_panels": [],
+    "size_outlier_panels": [
+      1
+    ],
+    "median_bbox_size": [
+      385,
+      597
+    ]
+  }
+}

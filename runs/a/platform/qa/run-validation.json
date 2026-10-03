@@ -1,0 +1,194 @@
+{
+  "ok": true,
+  "file": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/a/platform/final/run-sheet-clean.png",
+  "width": 384,
+  "height": 64,
+  "errors": [],
+  "warnings": [],
+  "cells": [
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 0,
+      "nontransparent_pixels": 636,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        17,
+        13,
+        47,
+        59
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 1,
+      "nontransparent_pixels": 629,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        17,
+        13,
+        47,
+        59
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 2,
+      "nontransparent_pixels": 637,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        13,
+        13,
+        51,
+        53
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 3,
+      "nontransparent_pixels": 596,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        17,
+        13,
+        47,
+        59
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 4,
+      "nontransparent_pixels": 639,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        16,
+        13,
+        47,
+        59
+      ]
+    },
+    {
+      "row": 0,
+      "row_name": "east",
+      "column": 5,
+      "nontransparent_pixels": 612,
+      "edge_pixels": 0,
+      "chroma_residue_pixels": 0,
+      "bbox": [
+        13,
+        13,
+        50,
+        53
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "row": 0,
+      "row_name": "east",
+      "frame_diffs": [
+        0.03736,
+        0.05603,
+        0.06481,
+        0.04709,
+        0.05023
+      ],
+      "bbox_shift": 3.0,
+      "cells": [
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 0,
+          "nontransparent_pixels": 636,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            17,
+            13,
+            47,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 1,
+          "nontransparent_pixels": 629,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            17,
+            13,
+            47,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 2,
+          "nontransparent_pixels": 637,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            13,
+            13,
+            51,
+            53
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 3,
+          "nontransparent_pixels": 596,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            17,
+            13,
+            47,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 4,
+          "nontransparent_pixels": 639,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            16,
+            13,
+            47,
+            59
+          ]
+        },
+        {
+          "row": 0,
+          "row_name": "east",
+          "column": 5,
+          "nontransparent_pixels": 612,
+          "edge_pixels": 0,
+          "chroma_residue_pixels": 0,
+          "bbox": [
+            13,
+            13,
+            50,
+            53
+          ]
+        }
+      ]
+    }
+  ]
+}

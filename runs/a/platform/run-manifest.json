@@ -1,0 +1,68 @@
+{
+  "reference": {
+    "source_type": "file",
+    "source": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/source/character-reference.png",
+    "used_for_generation": true,
+    "identity_notes": [
+      "Adult male",
+      "rectangular black glasses",
+      "short dark hair",
+      "black T-shirt",
+      "blue jeans",
+      "grey and white sneakers"
+    ]
+  },
+  "scope": {
+    "sizes": [
+      64
+    ],
+    "actions": [
+      "walk",
+      "run",
+      "jump"
+    ],
+    "directions": [
+      "east"
+    ],
+    "frames": 6
+  },
+  "generation": {
+    "method": "imagegen",
+    "imagegen_output_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/source/a-platform-walk.png",
+    "procedural": false,
+    "text_only": false,
+    "imported_contact_sheet": false
+  },
+  "strips": [
+    {
+      "cell": 64,
+      "action": "walk",
+      "direction": "east",
+      "method": "imagegen",
+      "imagegen_output_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/source/a-platform-walk.png",
+      "source_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/a/platform/generated/walk-east.png",
+      "prompt_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/prompts/a-platform-walk.txt"
+    },
+    {
+      "cell": 64,
+      "action": "run",
+      "direction": "east",
+      "method": "imagegen",
+      "imagegen_output_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/source/a-platform-run.png",
+      "source_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/a/platform/generated/run-east.png",
+      "prompt_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/prompts/a-platform-run.txt"
+    },
+    {
+      "cell": 64,
+      "action": "jump",
+      "direction": "east",
+      "method": "imagegen",
+      "imagegen_output_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/source/a-platform-jump.png",
+      "source_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/a/platform/generated/jump-east.png",
+      "prompt_path": "/Users/rickyfung/Documents/ChatGPT/Sprite Maker/runs/prompts/a-platform-jump.txt"
+    }
+  ],
+  "visual_review": {
+    "path": "qa/visual-review.json"
+  }
+}
