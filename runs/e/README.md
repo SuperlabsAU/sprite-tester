@@ -29,6 +29,7 @@ This rebuilds E from the retained raw strips and updates E's records in `site/di
 - `verification.json`: raw/final bounds, shared scales, measured flight lifts, durations and hashes of the 48 existing strips.
 - `all-frames.png`, `preview-*.png`: visual proof sheets from the packaged frames.
 - `REVIEW.md`: independent frame-by-frame review, including source and registration limitations.
-- `browser-checks.md`: actual desktop/mobile layout and shared-control checks.
+- `browser-checks.md`: actual desktop/mobile layout, shared-control and live deployment checks.
+- `live-page.png`: published five-column jump-apex comparison.
 
 Review found no empty frame, clipped art or mismatched exported cell. Repeated lead-leg poses, silhouette-centre drift and modest cross-action scale differences remain. RPG jump touches down early at frame 5 in the generated source. Shared scaling does not establish a locked body root, correct alternating gait or calibrated ground travel. These limitations are shown in the page's comparison notes.
