@@ -1,0 +1,1438 @@
+{
+  "date": "2026-10-12",
+  "clips": {
+    "platform-walk": {
+      "cell": 64,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 46,
+      "shared_scale": 0.11557788944723618,
+      "ground_baseline_exclusive": 59,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            78,
+            211,
+            304,
+            609
+          ],
+          "bbox": [
+            19,
+            13,
+            45,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            82,
+            211,
+            277,
+            609
+          ],
+          "bbox": [
+            20,
+            13,
+            43,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            91,
+            212,
+            258,
+            609
+          ],
+          "bbox": [
+            22,
+            13,
+            41,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            72,
+            211,
+            304,
+            609
+          ],
+          "bbox": [
+            18,
+            13,
+            45,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            84,
+            211,
+            272,
+            609
+          ],
+          "bbox": [
+            21,
+            13,
+            43,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            89,
+            212,
+            257,
+            609
+          ],
+          "bbox": [
+            22,
+            13,
+            41,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        }
+      ]
+    },
+    "platform-run": {
+      "cell": 64,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 46,
+      "shared_scale": 0.11616161616161616,
+      "ground_baseline_exclusive": 59,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            68,
+            181,
+            314,
+            565
+          ],
+          "bbox": [
+            17,
+            13,
+            46,
+            58
+          ],
+          "lift": 1,
+          "duration": 90
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            86,
+            181,
+            289,
+            571
+          ],
+          "bbox": [
+            20,
+            14,
+            44,
+            59
+          ],
+          "lift": 0,
+          "duration": 90
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            49,
+            172,
+            324,
+            509
+          ],
+          "bbox": [
+            16,
+            13,
+            48,
+            52
+          ],
+          "lift": 7,
+          "duration": 90
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            60,
+            182,
+            309,
+            568
+          ],
+          "bbox": [
+            17,
+            14,
+            46,
+            59
+          ],
+          "lift": 0,
+          "duration": 90
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            85,
+            175,
+            297,
+            571
+          ],
+          "bbox": [
+            19,
+            13,
+            44,
+            59
+          ],
+          "lift": 0,
+          "duration": 90
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            58,
+            175,
+            323,
+            529
+          ],
+          "bbox": [
+            16,
+            13,
+            47,
+            54
+          ],
+          "lift": 5,
+          "duration": 90
+        }
+      ]
+    },
+    "platform-jump": {
+      "cell": 64,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 44,
+      "shared_scale": 0.11702127659574468,
+      "ground_baseline_exclusive": 59,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            81,
+            304,
+            297,
+            604
+          ],
+          "bbox": [
+            19,
+            24,
+            44,
+            59
+          ],
+          "lift": 0,
+          "duration": 140
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            80,
+            230,
+            268,
+            604
+          ],
+          "bbox": [
+            21,
+            15,
+            43,
+            59
+          ],
+          "lift": 0,
+          "duration": 70
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            108,
+            175,
+            289,
+            518
+          ],
+          "bbox": [
+            21,
+            9,
+            42,
+            49
+          ],
+          "lift": 10,
+          "duration": 100
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            117,
+            132,
+            284,
+            452
+          ],
+          "bbox": [
+            22,
+            4,
+            42,
+            41
+          ],
+          "lift": 18,
+          "duration": 140
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            63,
+            164,
+            274,
+            540
+          ],
+          "bbox": [
+            19,
+            8,
+            44,
+            52
+          ],
+          "lift": 7,
+          "duration": 100
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            106,
+            294,
+            295,
+            604
+          ],
+          "bbox": [
+            21,
+            23,
+            43,
+            59
+          ],
+          "lift": 0,
+          "duration": 130
+        }
+      ]
+    },
+    "street-walk": {
+      "cell": 128,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 92,
+      "shared_scale": 0.19126819126819128,
+      "ground_baseline_exclusive": 123,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            67,
+            158,
+            336,
+            639
+          ],
+          "bbox": [
+            38,
+            31,
+            89,
+            123
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            83,
+            159,
+            297,
+            640
+          ],
+          "bbox": [
+            43,
+            31,
+            84,
+            123
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            89,
+            158,
+            291,
+            638
+          ],
+          "bbox": [
+            44,
+            31,
+            83,
+            123
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            50,
+            159,
+            322,
+            639
+          ],
+          "bbox": [
+            38,
+            31,
+            90,
+            123
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            61,
+            159,
+            279,
+            640
+          ],
+          "bbox": [
+            43,
+            31,
+            85,
+            123
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            87,
+            159,
+            261,
+            640
+          ],
+          "bbox": [
+            47,
+            31,
+            80,
+            123
+          ],
+          "lift": 0,
+          "duration": 120
+        }
+      ]
+    },
+    "street-run": {
+      "cell": 128,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 92,
+      "shared_scale": 0.22115384615384615,
+      "ground_baseline_exclusive": 123,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            64,
+            213,
+            316,
+            629
+          ],
+          "bbox": [
+            36,
+            31,
+            92,
+            123
+          ],
+          "lift": 0,
+          "duration": 90
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            52,
+            215,
+            324,
+            627
+          ],
+          "bbox": [
+            34,
+            32,
+            94,
+            123
+          ],
+          "lift": 0,
+          "duration": 90
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            32,
+            196,
+            319,
+            566
+          ],
+          "bbox": [
+            32,
+            27,
+            95,
+            109
+          ],
+          "lift": 14,
+          "duration": 90
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            42,
+            213,
+            319,
+            629
+          ],
+          "bbox": [
+            33,
+            31,
+            94,
+            123
+          ],
+          "lift": 0,
+          "duration": 90
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            54,
+            217,
+            309,
+            627
+          ],
+          "bbox": [
+            36,
+            32,
+            92,
+            123
+          ],
+          "lift": 0,
+          "duration": 90
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            49,
+            211,
+            312,
+            566
+          ],
+          "bbox": [
+            35,
+            30,
+            93,
+            109
+          ],
+          "lift": 14,
+          "duration": 90
+        }
+      ]
+    },
+    "street-jump": {
+      "cell": 128,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 90,
+      "shared_scale": 0.225,
+      "ground_baseline_exclusive": 123,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            77,
+            339,
+            293,
+            630
+          ],
+          "bbox": [
+            39,
+            58,
+            88,
+            123
+          ],
+          "lift": 0,
+          "duration": 140
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            65,
+            257,
+            282,
+            630
+          ],
+          "bbox": [
+            39,
+            39,
+            88,
+            123
+          ],
+          "lift": 0,
+          "duration": 70
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            75,
+            185,
+            311,
+            585
+          ],
+          "bbox": [
+            37,
+            23,
+            90,
+            113
+          ],
+          "lift": 10,
+          "duration": 100
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            107,
+            97,
+            308,
+            426
+          ],
+          "bbox": [
+            41,
+            3,
+            86,
+            77
+          ],
+          "lift": 46,
+          "duration": 140
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            58,
+            180,
+            266,
+            576
+          ],
+          "bbox": [
+            40,
+            22,
+            87,
+            111
+          ],
+          "lift": 12,
+          "duration": 100
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            98,
+            309,
+            267,
+            630
+          ],
+          "bbox": [
+            45,
+            51,
+            83,
+            123
+          ],
+          "lift": 0,
+          "duration": 130
+        }
+      ]
+    },
+    "isometric-walk": {
+      "cell": 64,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 47,
+      "shared_scale": 0.1175,
+      "ground_baseline_exclusive": 59,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            89,
+            196,
+            281,
+            596
+          ],
+          "bbox": [
+            20,
+            12,
+            43,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            93,
+            196,
+            277,
+            593
+          ],
+          "bbox": [
+            20,
+            12,
+            42,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            101,
+            196,
+            263,
+            587
+          ],
+          "bbox": [
+            22,
+            13,
+            41,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            73,
+            196,
+            269,
+            593
+          ],
+          "bbox": [
+            20,
+            12,
+            43,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            76,
+            196,
+            267,
+            593
+          ],
+          "bbox": [
+            20,
+            12,
+            42,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            87,
+            196,
+            254,
+            595
+          ],
+          "bbox": [
+            21,
+            12,
+            41,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        }
+      ]
+    },
+    "isometric-run": {
+      "cell": 64,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 47,
+      "shared_scale": 0.12082262210796915,
+      "ground_baseline_exclusive": 59,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            97,
+            201,
+            285,
+            579
+          ],
+          "bbox": [
+            20,
+            12,
+            43,
+            58
+          ],
+          "lift": 1,
+          "duration": 90
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            87,
+            200,
+            298,
+            579
+          ],
+          "bbox": [
+            19,
+            12,
+            44,
+            58
+          ],
+          "lift": 1,
+          "duration": 90
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            80,
+            183,
+            305,
+            519
+          ],
+          "bbox": [
+            18,
+            10,
+            45,
+            51
+          ],
+          "lift": 8,
+          "duration": 90
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            72,
+            195,
+            277,
+            584
+          ],
+          "bbox": [
+            19,
+            12,
+            44,
+            59
+          ],
+          "lift": 0,
+          "duration": 90
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            62,
+            195,
+            287,
+            562
+          ],
+          "bbox": [
+            18,
+            12,
+            45,
+            56
+          ],
+          "lift": 3,
+          "duration": 90
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            56,
+            183,
+            280,
+            526
+          ],
+          "bbox": [
+            18,
+            11,
+            45,
+            52
+          ],
+          "lift": 7,
+          "duration": 90
+        }
+      ]
+    },
+    "isometric-jump": {
+      "cell": 64,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 42,
+      "shared_scale": 0.1126005361930295,
+      "ground_baseline_exclusive": 59,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            92,
+            303,
+            272,
+            600
+          ],
+          "bbox": [
+            22,
+            26,
+            42,
+            59
+          ],
+          "lift": 0,
+          "duration": 140
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            73,
+            212,
+            275,
+            584
+          ],
+          "bbox": [
+            20,
+            15,
+            43,
+            57
+          ],
+          "lift": 2,
+          "duration": 70
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            76,
+            158,
+            286,
+            510
+          ],
+          "bbox": [
+            20,
+            9,
+            44,
+            49
+          ],
+          "lift": 10,
+          "duration": 100
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            94,
+            110,
+            291,
+            435
+          ],
+          "bbox": [
+            21,
+            3,
+            43,
+            40
+          ],
+          "lift": 19,
+          "duration": 140
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            67,
+            167,
+            287,
+            540
+          ],
+          "bbox": [
+            19,
+            10,
+            44,
+            52
+          ],
+          "lift": 7,
+          "duration": 100
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            90,
+            287,
+            276,
+            600
+          ],
+          "bbox": [
+            21,
+            24,
+            42,
+            59
+          ],
+          "lift": 0,
+          "duration": 130
+        }
+      ]
+    },
+    "rpg-walk": {
+      "cell": 64,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 42,
+      "shared_scale": 0.11413043478260869,
+      "ground_baseline_exclusive": 59,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            87,
+            197,
+            273,
+            565
+          ],
+          "bbox": [
+            21,
+            17,
+            42,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            87,
+            197,
+            270,
+            549
+          ],
+          "bbox": [
+            21,
+            19,
+            42,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            85,
+            198,
+            270,
+            558
+          ],
+          "bbox": [
+            21,
+            18,
+            42,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            87,
+            198,
+            276,
+            558
+          ],
+          "bbox": [
+            21,
+            18,
+            43,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            85,
+            198,
+            271,
+            549
+          ],
+          "bbox": [
+            21,
+            19,
+            42,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            87,
+            197,
+            272,
+            565
+          ],
+          "bbox": [
+            21,
+            17,
+            42,
+            59
+          ],
+          "lift": 0,
+          "duration": 120
+        }
+      ]
+    },
+    "rpg-run": {
+      "cell": 64,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 42,
+      "shared_scale": 0.11052631578947368,
+      "ground_baseline_exclusive": 59,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            92,
+            185,
+            300,
+            565
+          ],
+          "bbox": [
+            20,
+            17,
+            43,
+            59
+          ],
+          "lift": 0,
+          "duration": 90
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            84,
+            185,
+            292,
+            557
+          ],
+          "bbox": [
+            20,
+            17,
+            43,
+            58
+          ],
+          "lift": 1,
+          "duration": 90
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            89,
+            175,
+            291,
+            508
+          ],
+          "bbox": [
+            21,
+            16,
+            43,
+            53
+          ],
+          "lift": 6,
+          "duration": 90
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            91,
+            185,
+            297,
+            565
+          ],
+          "bbox": [
+            20,
+            17,
+            43,
+            59
+          ],
+          "lift": 0,
+          "duration": 90
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            81,
+            185,
+            290,
+            549
+          ],
+          "bbox": [
+            20,
+            17,
+            43,
+            57
+          ],
+          "lift": 2,
+          "duration": 90
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            80,
+            178,
+            286,
+            519
+          ],
+          "bbox": [
+            20,
+            16,
+            43,
+            54
+          ],
+          "lift": 5,
+          "duration": 90
+        }
+      ]
+    },
+    "rpg-jump": {
+      "cell": 64,
+      "raw_size": [
+        2172,
+        724
+      ],
+      "native_frame_size": 42,
+      "shared_scale": 0.13291139240506328,
+      "ground_baseline_exclusive": 59,
+      "frame1_locked": false,
+      "frames": [
+        {
+          "frame": 1,
+          "raw_bbox": [
+            99,
+            297,
+            287,
+            541
+          ],
+          "bbox": [
+            19,
+            27,
+            44,
+            59
+          ],
+          "lift": 0,
+          "duration": 140
+        },
+        {
+          "frame": 2,
+          "raw_bbox": [
+            75,
+            237,
+            288,
+            543
+          ],
+          "bbox": [
+            18,
+            18,
+            46,
+            59
+          ],
+          "lift": 0,
+          "duration": 70
+        },
+        {
+          "frame": 3,
+          "raw_bbox": [
+            60,
+            209,
+            286,
+            453
+          ],
+          "bbox": [
+            17,
+            15,
+            47,
+            47
+          ],
+          "lift": 12,
+          "duration": 100
+        },
+        {
+          "frame": 4,
+          "raw_bbox": [
+            56,
+            179,
+            279,
+            422
+          ],
+          "bbox": [
+            17,
+            11,
+            47,
+            43
+          ],
+          "lift": 16,
+          "duration": 140
+        },
+        {
+          "frame": 5,
+          "raw_bbox": [
+            67,
+            227,
+            271,
+            543
+          ],
+          "bbox": [
+            18,
+            17,
+            45,
+            59
+          ],
+          "lift": 0,
+          "duration": 100
+        },
+        {
+          "frame": 6,
+          "raw_bbox": [
+            72,
+            295,
+            260,
+            543
+          ],
+          "bbox": [
+            19,
+            26,
+            44,
+            59
+          ],
+          "lift": 0,
+          "duration": 130
+        }
+      ]
+    }
+  },
+  "existing_asset_hashes": {
+    "b-platform-run.png": "552d65eb06e2238ac16a6f5516c6f214c11db0d5e1101a3747f3935868a4ed8c",
+    "b-rpg-run.png": "4d0a62635b260928937b942b40bebb336307f472d91efe6ffa5ef0b5ed22f8de",
+    "b-rpg-walk.png": "1cc6ed5c61c50c1fe2b8dd018b474c2f1f9889b0d8381aea5b53ddfbefae2463",
+    "d-isometric-run.png": "a578dda3af8ff0fc280a9f36657b598a21c006ed771568a749c73effbd39ed35",
+    "d-street-walk.png": "1ed7a4ac673a0ef619a0be7db72abacbff9d8fd0e4e6fef147d93984bd7169ea",
+    "a-isometric-run.png": "f413e7e97c63421bedfbffbf98b116237a204b0c4eb320fcc97960d33914a37c",
+    "c-isometric-walk.png": "3c630421023d8dde2e485f29d7f2cc1ec44ea38007e85770fac06fa31e41e513",
+    "d-rpg-walk.png": "eee96ee50ff5a98bd9ec431ea71917ea31f4a1fbacad06c5e44cd51a983d6234",
+    "c-rpg-walk.png": "0254e8245a6d2b7b0914dd3174414d71055cd5a013c8e8771b23e9b57eb9f97c",
+    "a-platform-walk.png": "e2c5b183a6c1dbf055ed330f90ea93a9d44e3279918c1e8af16520dfdbd861b2",
+    "c-street-walk.png": "7b233bb7ac9334b88d58af62715bd9eb3a82aa74e78ac06d4474d37362b23208",
+    "d-isometric-jump.png": "eb779aa15e55db4660de1ce00d6c369d187bc7396d4c84288fd37abe14c8cd27",
+    "d-platform-walk.png": "1bfa59cbfea46e27d120a284ef3cd193e210e319501e95086e21f8d6e1601768",
+    "d-rpg-run.png": "4100127ac4405ac46063f57ed6168bd3dbe9f98c31273409f3b367df9ddb4e96",
+    "a-rpg-jump.png": "33cc9f05b58f9dc9baa24d92b92dd61d5f50bf575432a455ebba9e4720136e8c",
+    "b-isometric-jump.png": "0e7d011465ddbfa38c733b4debc1f03a23d49a6b70d9defc68974b2dfe70363a",
+    "b-street-walk.png": "882c8fe43a0553fc7823cbdd6660a50476e2fd2a52a6a50e25df9f67ae53584a",
+    "c-platform-run.png": "ecc5ddb03cff834f6ae5263ba96ab368ab24c93aa8a516cf83c0efe4f40beb38",
+    "b-platform-walk.png": "1eae3e665716aac7ac26cc5d7eb61a12d6643c61cad7bf6e12fcb4dc4d30a383",
+    "c-isometric-run.png": "3eed96dae26767198416de51b128deac5bf640a2a6e0ea7995536c5b2e52248e",
+    "a-street-jump.png": "c5977db38b32bab8e28747a55279f185b0dadf27a1708abda29187e1c1a01c50",
+    "c-platform-walk.png": "1109315eab3ab8b317b2cdaf9efb5de79aa7806a2e20d77203d30282a3b6b636",
+    "a-isometric-jump.png": "07ec87661f0a5bd3880afb922607c9855ad587ec46dad366859dfc05e1459eca",
+    "a-rpg-run.png": "aa6002e0b0df215ec31b365ff9faf00a92ae9b6ceb94524115e644ad2de2c6e8",
+    "b-isometric-run.png": "b1788b21d33ea44e5cb7a95f6b1c2ae26ca5b108f9c0d20f5a35a4e4e37e49a7",
+    "b-street-run.png": "13bbd9beb5e566e92755aa91226869d0ea1128f8b48ea31f139d768b939af1d8",
+    "b-rpg-jump.png": "333551d0a397aee9bebeac369f337b90551d9a546be12d8e692e092ae60c2de8",
+    "d-street-jump.png": "5bda2fc9e507c2f253a9589e6ea01968087e93505c884ce0432966a04a077617",
+    "c-isometric-jump.png": "f686a1a6f0cf384fbd93f65134858a6790dd1fb5797d9663891af9cd1f17095f",
+    "d-platform-run.png": "96fff615a4d2ce9ef1522fa73db75a8c7559e2f862079d9220e47348499e3981",
+    "d-rpg-jump.png": "5bc7caea6f6f911dc85bd78b1b94e4e49816149f275539dd7c523bfec23af84d",
+    "c-rpg-jump.png": "e8ada88208ba5ac70fefb80c8ee1904614e5c5523251dd6c80bab4f2dc5a2b5e",
+    "d-street-run.png": "7b52eeccc935310dbd2c28e1c4835395a5addff53a5fdbe0bfef3ac4a72f7e81",
+    "a-platform-jump.png": "6c5c9377a4d9fa6a3063ddb3a054bc1ffe6c3e9c9f5e85c9b28cbf5ce54e1494",
+    "c-street-jump.png": "e8118bda7f6adf4783e9b91fb1b7161ff9b3656ba4eb9ad7ea455d06de2f02f8",
+    "c-rpg-run.png": "688cc8a60c32379640a995476b9a61a6191171da5a77acef6e6d1e67497fbd6f",
+    "c-street-run.png": "cf394eb1268c6842cd4bc435fd54576c8c5bc3c1cf95e60a316f247ae99ec565",
+    "d-isometric-walk.png": "5c7d57a3b74ccc30977126a1e9eea0654cc3321ae44defd0ce9ef7c05b986e58",
+    "d-platform-jump.png": "be25a075692700f596bf3701964495a5ef05849d8b6decfa9492136a46f4a551",
+    "a-rpg-walk.png": "41f22305492baebd821c9c64d15322dcf1c7f6512f14e62b0112fa8d6f63c41a",
+    "b-isometric-walk.png": "1be0f90f7140e4c9bdacab80f5d78ab283f095dbac5afe34ce2d5e7f4d3c1b0e",
+    "b-street-jump.png": "c95ff62668096b0bc4fcc8dd277781504b229b66b3dd4958eaec0a4866eb7238",
+    "b-platform-jump.png": "130cc161e8385f68532c652b056915655f9d124373dd7fbb1f7d3f224bad9d25",
+    "a-street-run.png": "a58f2e5537d777316527e08c63cb8e81a859a94a63f71ad5a7765c45336f06f8",
+    "a-platform-run.png": "d388a2f43abd5a2eab5e25b8ad48f472a506de826ab27c1ef8524f11ef4c020b",
+    "a-street-walk.png": "6110705d9f20c71234e29455bb40805037c319f580def2a588bcc35d5dde47a7",
+    "c-platform-jump.png": "be525a88c114c0593bae4beec4dfd8083a4124d72d58e8e1ba0456c67721ab6a",
+    "a-isometric-walk.png": "49447a2ad739951ff9652a4c7d9a250f030e958aba50e7d8bbd8ddbb872ba9d4"
+  },
+  "existing_assets_unchanged": true,
+  "new_clips": 12,
+  "new_frames": 72
+}

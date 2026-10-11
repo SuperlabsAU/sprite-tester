@@ -2,6 +2,31 @@ const {test}=require('node:test');
 const assert=require('node:assert/strict');
 const motion=require('../dist/app.js');
 
+test('all five methods ship complete six-frame sheets and matching motion data',()=>{
+ const fs=require('node:fs'),path=require('node:path');
+ const assets=path.join(__dirname,'../dist/assets');
+ const metadata=JSON.parse(fs.readFileSync(path.join(assets,'motion.json'),'utf8'));
+ const pngNames=fs.readdirSync(assets).filter(name=>/^[abcde]-.*\.png$/.test(name));
+ assert.equal(pngNames.length,60);
+ for(const name of pngNames){
+  const data=fs.readFileSync(path.join(assets,name));
+  assert.equal(data.subarray(1,4).toString(),'PNG');
+  const cell=name.includes('-street-')?128:64;
+  assert.equal(data.readUInt32BE(16),6*cell,name);
+  assert.equal(data.readUInt32BE(20),cell,name);
+  assert.equal(data[25],6,`${name}: RGBA transparency required`);
+  const clip=motion.clip(name.slice(0,-4),metadata);
+  assert.equal(clip.frames,6,name);
+  assert.equal(clip.durations.length,6,name);
+ }
+ for(const view of ['platform','street','isometric','rpg']){
+  const jump=metadata.clips[`e-${view}-jump`];
+  assert.equal(jump.lift.indexOf(Math.max(...jump.lift)),3,`${view}: apex is frame 4`);
+  assert.equal(jump.lift[0],0);assert.equal(jump.lift[5],0);
+  assert.deepEqual(jump.stride,[0,0]);
+ }
+});
+
 test('walk frame boundaries and cycle seam use all six frames',()=>{
  const clip=motion.clip('a-platform-walk');
  assert.equal(clip.frames,6);

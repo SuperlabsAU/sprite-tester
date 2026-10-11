@@ -14,3 +14,14 @@
 
 .heading-d .skill-letter{background:#eee0f7;color:#80519c}.heading-d h2{color:#80519c}.sprite-card:has([data-skill="d"]){border-color:#d4bfe1}.column-headings h2{overflow-wrap:anywhere}
 @media(max-width:760px){.stage,.street .stage{height:170px}.column-headings h2{font-size:11px}.column-headings div div>span{font-size:9px}.card-meta .skill-tag{font-size:9px}.view-badge{font-size:7px}.motion-readout{font-size:8px}}
+
+/* Keep the established comparison grid readable as a fifth method is added. */
+.column-headings,.pair{grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.comparison-scroll{overflow-x:auto;overscroll-behavior-x:contain;padding-bottom:8px}
+.comparison-scroll:focus-visible{outline:3px solid #5670da;outline-offset:4px}
+.comparison-board{min-width:1020px}
+.comparison-hint{display:none;color:var(--muted);font-size:12px;margin:16px 0 0}
+.heading-e .skill-letter{background:#f7ebd3;color:#93631d}.heading-e h2{color:#93631d}
+.sprite-card:has([data-skill="e"]){border-color:#dfc797}
+@media(max-width:1100px){.comparison-hint{display:block}}
+@media(max-width:760px){.comparison-board .column-headings>div{flex-wrap:nowrap;align-items:center;padding:0 8px;gap:8px}.comparison-board .column-headings h2{font-size:14px}.comparison-board .column-headings div div>span{font-size:12px}.comparison-board .stage{height:224px}.comparison-board .street .stage{height:256px}.comparison-board .view-badge{font-size:10px}.comparison-board .card-meta{font-size:12px}.comparison-board .card-meta .skill-tag{font-size:10px}.comparison-board .motion-readout{font-size:10px}.comparison-board .stage canvas{width:192px}.comparison-board .street canvas{width:224px}}

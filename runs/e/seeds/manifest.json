@@ -1,0 +1,62 @@
+{
+  "platform": {
+    "cell": 64,
+    "seed_bbox": [
+      19,
+      13,
+      45,
+      59
+    ],
+    "source": "site/dist/assets/a-platform-walk.png",
+    "reference_size": [
+      1536,
+      256
+    ],
+    "source_slots": 6
+  },
+  "street": {
+    "cell": 128,
+    "seed_bbox": [
+      40,
+      31,
+      91,
+      123
+    ],
+    "source": "site/dist/assets/a-street-walk.png",
+    "reference_size": [
+      1536,
+      256
+    ],
+    "source_slots": 6
+  },
+  "isometric": {
+    "cell": 64,
+    "seed_bbox": [
+      22,
+      12,
+      44,
+      59
+    ],
+    "source": "site/dist/assets/a-isometric-walk.png",
+    "reference_size": [
+      1536,
+      256
+    ],
+    "source_slots": 6
+  },
+  "rpg": {
+    "cell": 64,
+    "seed_bbox": [
+      20,
+      17,
+      41,
+      59
+    ],
+    "source": "site/dist/assets/a-rpg-walk.png",
+    "reference_size": [
+      1536,
+      256
+    ],
+    "source_slots": 6
+  }
+}

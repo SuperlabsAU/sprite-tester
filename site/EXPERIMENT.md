@@ -1,8 +1,8 @@
-# Sprite skill comparison — 3 October 2026
+# Sprite skill comparison — updated 12 October 2026
 
-Current output: sixteen animated sprite viewers, four skill workflows across four views. Every viewer contains walk, run and jump (six frames each: 288 final frames). The original eight-viewer comparison was expanded at the user’s request.
+Current output: twenty animated sprite viewers, five workflows across four views. Every viewer contains walk, run and jump (six frames each: 360 final frames). The original eight-viewer comparison was expanded at the user’s request.
 
-Character: adult male with rectangular black glasses, short dark hair, black T-shirt, blue jeans and grey/white sneakers. A shared image-generated identity reference grounds both workflows. Each action strip is generated independently using the built-in image generator; no poses are drawn or synthesised in local code.
+Character: adult male with rectangular black glasses, short dark hair, black T-shirt, blue jeans and grey/white sneakers. A shared image-generated identity reference grounds A–C; E uses shipped A frames as view-specific seeds. A–C and E use the built-in image generator. D uses explicitly authored pixel poses through Pixel-plugin/Aseprite.
 
 ## Scope
 
@@ -63,8 +63,22 @@ D differs substantially from A–C: deterministic pixel geometry and fixed templ
 
 Independent review identified shin outlines below the soles; corrected by ending strokes at the ankle. Final review verified all72 corrected exports match served pixels with no clipping or remaining below-sole ink. Full provenance, setup caveats, editable originals, MCP logs, measurements and proof sheet: `../runs/d/REVIEW.md`. All48 current strips/288 frames are available; A–C PNGs are unchanged. Seven playback tests pass.
 
+## Hosting
+
+Private Sites project: `appgprj_6ac08d7982e08191b8656c6f3fa55719`. Read `.openai/hosting.json` and verify the live project before future publication. Preserve its audience.
+
 ## Pixel-plugin detail pass — 3 October 2026
 
 At the user's request, D now has richer hair and face shading, clearer glasses, fitted shirt shading and folds, denim seams and cuffs, and layered trainers. Fine marks use native pixels, particularly at128px, rather than doubling every detail. All artwork was redrawn through the existing Pixel-plugin MCP/Aseprite workflow.
 
 All72 pose records (feet, root, head anchors, lift and stride) and exported durations are unchanged from the accepted movement. The visual silhouette has slightly fuller thighs and shirt shoulders; movement coordinates remain identical. Original artwork and motion metadata are preserved in `runs/d/detail-pass/before/` in the root project. The updated style remains explicitly authored pixel art; this pass does not claim to reproduce the generated columns' artwork exactly.
+
+## OpenAI Game Studio column E — 12 October 2026
+
+Game Studio 0.1.2's sprite-pipeline skill builds a transparent reference canvas from each shipped A walk seed, generates a complete six-frame strip in one image edit, then runs the upstream shared-scale, bottom-centre normaliser and preview renderer. E uses the same image backend as A–C; this is a workflow comparison. No frame-1 lock is applied because a walking seed is not the opening run/jump pose.
+
+The upstream scripts remain unmodified in `../vendor/skills/game-studio/`. `../runs/e/package.py` uses one scale per action, fits the full airborne envelope and restores only measured raw vertical offsets after native bottom alignment. No replacement poses or synthetic jump arc are drawn. Walk keeps native bottom alignment; ground distances are comparison estimates marked uncalibrated. All 48 A–D PNG strips are unchanged.
+
+All 72 new frames were independently reviewed. Repeated lead-leg silhouettes, native whole-silhouette centring drift, modest action-switch scale differences and RPG jump's early frame-5 touchdown remain visible and are disclosed on the page. No empty frame, clipping or packaged/source mismatch was found. Eight tests pass; actual browser checks covered all 20 sprites, jump/run selection, pause, frame selection, speed, in-place mode and horizontal scrolling at desktop/mobile widths.
+
+The current public site contains 60 PNG strips and `motion.json` revision 6. Full prompts, raw strips, native and packaged frames, proof sheets, measurements and review: [E's record](../runs/e/README.md). Reproduce with `python3 runs/e/package.py` from the repository root.
