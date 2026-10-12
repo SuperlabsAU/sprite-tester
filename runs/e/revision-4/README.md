@@ -31,3 +31,5 @@ The 12 tests cover complete assets, playback, contact alternation, sampled foot 
 `references/` contains A’s source frames and measurement grids; `parts/` holds the extracted native artwork. `source-rig.cjs`, `parts.cjs`, `rig.cjs` and `render.cjs` are the editable source. `before/` preserves revision 3. Rerunning older revision exporters will overwrite E with their earlier appearance.
 
 Eight held frames still produce stepping. Rotated pixel textures can retain angular edges and some deformation; this is not continuous hand-drawn animation. Sampled ankle travel matches the rig, but does not certify zero sliding at every raster edge between held frames.
+
+Published and browser-verified on 12 October 2026 at `027e0c9`. See [browser checks](browser-checks.md) and [live proof](live-page.png).
