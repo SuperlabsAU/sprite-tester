@@ -1,5 +1,5 @@
 {
-  "revision": 7,
+  "revision": 8,
   "clips": {
     "a-platform-walk": {
       "frames": 6,
@@ -929,8 +929,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,
@@ -970,8 +970,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,
@@ -1011,8 +1011,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,
@@ -1052,8 +1052,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,
@@ -1093,8 +1093,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,
@@ -1134,8 +1134,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,
@@ -1175,8 +1175,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,
@@ -1216,8 +1216,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,
@@ -1257,8 +1257,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,
@@ -1298,8 +1298,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,
@@ -1339,8 +1339,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,
@@ -1380,8 +1380,8 @@
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + authored rig correction",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
       "lift": [
         0,
         0,

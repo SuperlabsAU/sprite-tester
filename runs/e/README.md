@@ -1,3 +1,5 @@
+Current appearance restoration (12 October 2026): [revision 3](revision-3/README.md) retains A’s native head artwork and generated clothing textures around the corrected eight-pose rig. Earlier runs below are preserved.
+
 # E · OpenAI Game Studio
 
 **Current output:** [revision 2](revision-2/README.md) applies an authored eight-pose rig correction to generated parts. The six-frame process below is the original experiment, preserved for comparison; `package.py` rebuilds that historical result.

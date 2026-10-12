@@ -1,0 +1,965 @@
+{
+  "frames": [
+    {
+      "clip": "platform-walk",
+      "frame": 1,
+      "bounds": [
+        21,
+        13,
+        45,
+        58
+      ]
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 2,
+      "bounds": [
+        25,
+        14,
+        43,
+        58
+      ]
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 3,
+      "bounds": [
+        25,
+        12,
+        43,
+        58
+      ]
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 4,
+      "bounds": [
+        25,
+        11,
+        43,
+        58
+      ]
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 5,
+      "bounds": [
+        21,
+        13,
+        45,
+        58
+      ]
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 6,
+      "bounds": [
+        25,
+        14,
+        43,
+        58
+      ]
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 7,
+      "bounds": [
+        25,
+        12,
+        43,
+        58
+      ]
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 8,
+      "bounds": [
+        25,
+        11,
+        44,
+        58
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 1,
+      "bounds": [
+        23,
+        14,
+        47,
+        58
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 2,
+      "bounds": [
+        27,
+        14,
+        43,
+        58
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 3,
+      "bounds": [
+        26,
+        14,
+        44,
+        58
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 4,
+      "bounds": [
+        19,
+        11,
+        45,
+        55
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 5,
+      "bounds": [
+        23,
+        14,
+        47,
+        58
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 6,
+      "bounds": [
+        27,
+        14,
+        44,
+        58
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 7,
+      "bounds": [
+        26,
+        14,
+        45,
+        58
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 8,
+      "bounds": [
+        19,
+        11,
+        45,
+        55
+      ]
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 1,
+      "bounds": [
+        25,
+        17,
+        44,
+        58
+      ]
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 2,
+      "bounds": [
+        25,
+        13,
+        42,
+        58
+      ]
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 3,
+      "bounds": [
+        25,
+        9,
+        43,
+        52
+      ]
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 4,
+      "bounds": [
+        25,
+        7,
+        44,
+        46
+      ]
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 5,
+      "bounds": [
+        25,
+        7,
+        45,
+        41
+      ]
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 6,
+      "bounds": [
+        25,
+        7,
+        44,
+        46
+      ]
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 7,
+      "bounds": [
+        25,
+        9,
+        43,
+        52
+      ]
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 8,
+      "bounds": [
+        25,
+        17,
+        44,
+        58
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 1,
+      "bounds": [
+        43,
+        31,
+        91,
+        122
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 2,
+      "bounds": [
+        51,
+        33,
+        86,
+        122
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 3,
+      "bounds": [
+        51,
+        29,
+        86,
+        122
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 4,
+      "bounds": [
+        51,
+        27,
+        87,
+        122
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 5,
+      "bounds": [
+        43,
+        31,
+        91,
+        122
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 6,
+      "bounds": [
+        51,
+        33,
+        85,
+        122
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 7,
+      "bounds": [
+        51,
+        29,
+        85,
+        122
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 8,
+      "bounds": [
+        51,
+        27,
+        87,
+        122
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 1,
+      "bounds": [
+        47,
+        33,
+        95,
+        122
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 2,
+      "bounds": [
+        54,
+        33,
+        86,
+        122
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 3,
+      "bounds": [
+        52,
+        33,
+        89,
+        122
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 4,
+      "bounds": [
+        39,
+        27,
+        90,
+        116
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 5,
+      "bounds": [
+        47,
+        33,
+        95,
+        122
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 6,
+      "bounds": [
+        54,
+        33,
+        86,
+        122
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 7,
+      "bounds": [
+        52,
+        33,
+        89,
+        122
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 8,
+      "bounds": [
+        39,
+        27,
+        90,
+        116
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 1,
+      "bounds": [
+        51,
+        39,
+        87,
+        122
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 2,
+      "bounds": [
+        51,
+        31,
+        83,
+        122
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 3,
+      "bounds": [
+        51,
+        23,
+        85,
+        110
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 4,
+      "bounds": [
+        51,
+        19,
+        88,
+        98
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 5,
+      "bounds": [
+        51,
+        19,
+        90,
+        87
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 6,
+      "bounds": [
+        51,
+        19,
+        88,
+        98
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 7,
+      "bounds": [
+        51,
+        23,
+        85,
+        110
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 8,
+      "bounds": [
+        51,
+        39,
+        87,
+        122
+      ]
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 1,
+      "bounds": [
+        22,
+        12,
+        42,
+        57
+      ]
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 2,
+      "bounds": [
+        24,
+        13,
+        42,
+        56
+      ]
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 3,
+      "bounds": [
+        25,
+        11,
+        43,
+        54
+      ]
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 4,
+      "bounds": [
+        24,
+        10,
+        44,
+        52
+      ]
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 5,
+      "bounds": [
+        21,
+        12,
+        46,
+        55
+      ]
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 6,
+      "bounds": [
+        24,
+        13,
+        44,
+        54
+      ]
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 7,
+      "bounds": [
+        25,
+        11,
+        41,
+        52
+      ]
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 8,
+      "bounds": [
+        24,
+        10,
+        41,
+        52
+      ]
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 1,
+      "bounds": [
+        22,
+        14,
+        46,
+        58
+      ]
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 2,
+      "bounds": [
+        24,
+        14,
+        44,
+        55
+      ]
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 3,
+      "bounds": [
+        25,
+        14,
+        45,
+        53
+      ]
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 4,
+      "bounds": [
+        19,
+        11,
+        45,
+        48
+      ]
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 5,
+      "bounds": [
+        22,
+        14,
+        48,
+        56
+      ]
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 6,
+      "bounds": [
+        26,
+        14,
+        43,
+        53
+      ]
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 7,
+      "bounds": [
+        26,
+        14,
+        42,
+        51
+      ]
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 8,
+      "bounds": [
+        23,
+        11,
+        43,
+        49
+      ]
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 1,
+      "bounds": [
+        22,
+        16,
+        42,
+        55
+      ]
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 2,
+      "bounds": [
+        22,
+        12,
+        41,
+        55
+      ]
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 3,
+      "bounds": [
+        22,
+        8,
+        42,
+        50
+      ]
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 4,
+      "bounds": [
+        21,
+        7,
+        43,
+        45
+      ]
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 5,
+      "bounds": [
+        22,
+        7,
+        44,
+        40
+      ]
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 6,
+      "bounds": [
+        21,
+        7,
+        43,
+        45
+      ]
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 7,
+      "bounds": [
+        22,
+        8,
+        42,
+        50
+      ]
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 8,
+      "bounds": [
+        22,
+        16,
+        42,
+        55
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 1,
+      "bounds": [
+        22,
+        17,
+        42,
+        57
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 2,
+      "bounds": [
+        22,
+        18,
+        42,
+        54
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 3,
+      "bounds": [
+        22,
+        16,
+        42,
+        52
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 4,
+      "bounds": [
+        22,
+        16,
+        42,
+        51
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 5,
+      "bounds": [
+        22,
+        17,
+        42,
+        57
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 6,
+      "bounds": [
+        22,
+        18,
+        42,
+        54
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 7,
+      "bounds": [
+        22,
+        16,
+        42,
+        52
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 8,
+      "bounds": [
+        22,
+        16,
+        42,
+        51
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 1,
+      "bounds": [
+        22,
+        19,
+        42,
+        58
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 2,
+      "bounds": [
+        22,
+        19,
+        42,
+        54
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 3,
+      "bounds": [
+        22,
+        19,
+        42,
+        50
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 4,
+      "bounds": [
+        22,
+        17,
+        42,
+        50
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 5,
+      "bounds": [
+        22,
+        19,
+        42,
+        58
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 6,
+      "bounds": [
+        22,
+        19,
+        42,
+        54
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 7,
+      "bounds": [
+        22,
+        19,
+        42,
+        50
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 8,
+      "bounds": [
+        22,
+        17,
+        42,
+        50
+      ]
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 1,
+      "bounds": [
+        19,
+        20,
+        46,
+        53
+      ]
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 2,
+      "bounds": [
+        19,
+        17,
+        46,
+        53
+      ]
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 3,
+      "bounds": [
+        19,
+        14,
+        45,
+        49
+      ]
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 4,
+      "bounds": [
+        19,
+        13,
+        46,
+        45
+      ]
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 5,
+      "bounds": [
+        19,
+        13,
+        46,
+        44
+      ]
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 6,
+      "bounds": [
+        19,
+        13,
+        46,
+        45
+      ]
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 7,
+      "bounds": [
+        19,
+        14,
+        45,
+        49
+      ]
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 8,
+      "bounds": [
+        19,
+        20,
+        46,
+        53
+      ]
+    }
+  ],
+  "unchangedComparisonStrips": 48
+}
