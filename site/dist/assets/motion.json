@@ -1,5 +1,5 @@
 {
-  "revision": 6,
+  "revision": 7,
   "clips": {
     "a-platform-walk": {
       "frames": 6,
@@ -464,8 +464,8 @@
         90
       ],
       "stride": [
-        60.0,
-        0.0
+        60,
+        0
       ],
       "calibrated": false,
       "distanceBasis": "Reference preview only; no foot-lock claim",
@@ -524,8 +524,8 @@
         90
       ],
       "stride": [
-        72.0,
-        0.0
+        72,
+        0
       ],
       "calibrated": false,
       "distanceBasis": "Reference preview only; no foot-lock claim",
@@ -584,8 +584,8 @@
         90
       ],
       "stride": [
-        36.0,
-        18.0
+        36,
+        18
       ],
       "calibrated": false,
       "distanceBasis": "Reference preview only; no foot-lock claim",
@@ -644,8 +644,8 @@
         90
       ],
       "stride": [
-        0.0,
-        27.0
+        0,
+        27
       ],
       "calibrated": false,
       "distanceBasis": "Reference preview only; no foot-lock claim",
@@ -742,7 +742,7 @@
       ],
       "stride": [
         64.4,
-        0.0
+        0
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
@@ -760,8 +760,8 @@
         90
       ],
       "stride": [
-        138.0,
-        0.0
+        138,
+        0
       ],
       "calibrated": false,
       "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
@@ -902,24 +902,38 @@
       "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
     },
     "e-platform-walk": {
-      "frames": 6,
+      "frames": 8,
       "durations": [
-        120,
-        120,
-        120,
-        120,
-        120,
-        120
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "labels": [
+        "R contact",
+        "R down",
+        "L passing",
+        "R up",
+        "L contact",
+        "L down",
+        "R passing",
+        "L up"
       ],
       "stride": [
-        40,
+        32,
         0
       ],
       "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
       "lift": [
+        0,
+        0,
         0,
         0,
         0,
@@ -929,8 +943,92 @@
       ]
     },
     "e-platform-run": {
-      "frames": 6,
+      "frames": 8,
       "durations": [
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5
+      ],
+      "labels": [
+        "R contact",
+        "R stance",
+        "L passing",
+        "Flight",
+        "L contact",
+        "L stance",
+        "R passing",
+        "Flight"
+      ],
+      "stride": [
+        53.333,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
+      "lift": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "e-platform-jump": {
+      "frames": 8,
+      "durations": [
+        100,
+        80,
+        70,
+        90,
+        120,
+        90,
+        60,
+        70
+      ],
+      "labels": [
+        "Crouch",
+        "Launch",
+        "Rise",
+        "Rise",
+        "Apex",
+        "Fall",
+        "Fall",
+        "Landing"
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
+      "lift": [
+        0,
+        0,
+        4,
+        8,
+        12,
+        8,
+        4,
+        0
+      ]
+    },
+    "e-street-walk": {
+      "frames": 8,
+      "durations": [
+        90,
+        90,
         90,
         90,
         90,
@@ -938,69 +1036,27 @@
         90,
         90
       ],
+      "labels": [
+        "R contact",
+        "R down",
+        "L passing",
+        "R up",
+        "L contact",
+        "L down",
+        "R passing",
+        "L up"
+      ],
       "stride": [
         64,
         0
       ],
       "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
-      "lift": [
-        1,
-        0,
-        7,
-        0,
-        0,
-        5
-      ]
-    },
-    "e-platform-jump": {
-      "frames": 6,
-      "durations": [
-        140,
-        70,
-        100,
-        140,
-        100,
-        130
-      ],
-      "stride": [
-        0,
-        0
-      ],
-      "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
       "lift": [
         0,
         0,
-        10,
-        18,
-        7,
-        0
-      ]
-    },
-    "e-street-walk": {
-      "frames": 6,
-      "durations": [
-        120,
-        120,
-        120,
-        120,
-        120,
-        120
-      ],
-      "stride": [
-        80,
-        0
-      ],
-      "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
-      "lift": [
         0,
         0,
         0,
@@ -1010,8 +1066,92 @@
       ]
     },
     "e-street-run": {
-      "frames": 6,
+      "frames": 8,
       "durations": [
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5
+      ],
+      "labels": [
+        "R contact",
+        "R stance",
+        "L passing",
+        "Flight",
+        "L contact",
+        "L stance",
+        "R passing",
+        "Flight"
+      ],
+      "stride": [
+        106.667,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
+      "lift": [
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        6
+      ]
+    },
+    "e-street-jump": {
+      "frames": 8,
+      "durations": [
+        100,
+        80,
+        70,
+        90,
+        120,
+        90,
+        60,
+        70
+      ],
+      "labels": [
+        "Crouch",
+        "Launch",
+        "Rise",
+        "Rise",
+        "Apex",
+        "Fall",
+        "Fall",
+        "Landing"
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
+      "lift": [
+        0,
+        0,
+        8,
+        16,
+        24,
+        16,
+        8,
+        0
+      ]
+    },
+    "e-isometric-walk": {
+      "frames": 8,
+      "durations": [
+        90,
+        90,
         90,
         90,
         90,
@@ -1019,69 +1159,27 @@
         90,
         90
       ],
+      "labels": [
+        "R contact",
+        "R down",
+        "L passing",
+        "R up",
+        "L contact",
+        "L down",
+        "R passing",
+        "L up"
+      ],
       "stride": [
-        128,
-        0
+        27.712,
+        13.856
       ],
       "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
       "lift": [
         0,
         0,
-        14,
-        0,
-        0,
-        14
-      ]
-    },
-    "e-street-jump": {
-      "frames": 6,
-      "durations": [
-        140,
-        70,
-        100,
-        140,
-        100,
-        130
-      ],
-      "stride": [
-        0,
-        0
-      ],
-      "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
-      "lift": [
-        0,
-        0,
-        10,
-        46,
-        12,
-        0
-      ]
-    },
-    "e-isometric-walk": {
-      "frames": 6,
-      "durations": [
-        120,
-        120,
-        120,
-        120,
-        120,
-        120
-      ],
-      "stride": [
-        24,
-        12
-      ],
-      "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
-      "lift": [
         0,
         0,
         0,
@@ -1091,8 +1189,92 @@
       ]
     },
     "e-isometric-run": {
-      "frames": 6,
+      "frames": 8,
       "durations": [
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5
+      ],
+      "labels": [
+        "R contact",
+        "R stance",
+        "L passing",
+        "Flight",
+        "L contact",
+        "L stance",
+        "R passing",
+        "Flight"
+      ],
+      "stride": [
+        46.187,
+        23.093
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
+      "lift": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "e-isometric-jump": {
+      "frames": 8,
+      "durations": [
+        100,
+        80,
+        70,
+        90,
+        120,
+        90,
+        60,
+        70
+      ],
+      "labels": [
+        "Crouch",
+        "Launch",
+        "Rise",
+        "Rise",
+        "Apex",
+        "Fall",
+        "Fall",
+        "Landing"
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
+      "lift": [
+        0,
+        0,
+        4,
+        8,
+        12,
+        8,
+        4,
+        0
+      ]
+    },
+    "e-rpg-walk": {
+      "frames": 8,
+      "durations": [
+        90,
+        90,
         90,
         90,
         90,
@@ -1100,69 +1282,27 @@
         90,
         90
       ],
-      "stride": [
-        40,
-        20
-      ],
-      "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
-      "lift": [
-        1,
-        1,
-        8,
-        0,
-        3,
-        7
-      ]
-    },
-    "e-isometric-jump": {
-      "frames": 6,
-      "durations": [
-        140,
-        70,
-        100,
-        140,
-        100,
-        130
+      "labels": [
+        "R contact",
+        "R down",
+        "L passing",
+        "R up",
+        "L contact",
+        "L down",
+        "R passing",
+        "L up"
       ],
       "stride": [
         0,
-        0
+        19.84
       ],
       "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
       "lift": [
         0,
-        2,
-        10,
-        19,
-        7,
-        0
-      ]
-    },
-    "e-rpg-walk": {
-      "frames": 6,
-      "durations": [
-        120,
-        120,
-        120,
-        120,
-        120,
-        120
-      ],
-      "stride": [
         0,
-        24
-      ],
-      "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
-      "lift": [
         0,
         0,
         0,
@@ -1172,56 +1312,84 @@
       ]
     },
     "e-rpg-run": {
-      "frames": 6,
+      "frames": 8,
       "durations": [
-        90,
-        90,
-        90,
-        90,
-        90,
-        90
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5
+      ],
+      "labels": [
+        "R contact",
+        "R stance",
+        "L passing",
+        "Flight",
+        "L contact",
+        "L stance",
+        "R passing",
+        "Flight"
       ],
       "stride": [
         0,
-        40
+        33.067
       ],
       "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
       "lift": [
         0,
-        1,
-        6,
         0,
-        2,
-        5
+        0,
+        3,
+        0,
+        0,
+        0,
+        3
       ]
     },
     "e-rpg-jump": {
-      "frames": 6,
+      "frames": 8,
       "durations": [
-        140,
+        100,
+        80,
         70,
-        100,
-        140,
-        100,
-        130
+        90,
+        120,
+        90,
+        60,
+        70
+      ],
+      "labels": [
+        "Crouch",
+        "Launch",
+        "Rise",
+        "Rise",
+        "Apex",
+        "Fall",
+        "Fall",
+        "Landing"
       ],
       "stride": [
         0,
         0
       ],
       "calibrated": false,
-      "distanceBasis": "Comparison reference estimate; generated stance travel is not calibrated",
-      "poseStatus": "Full-strip image edit from shipped A seed; native shared-scale normalisation; source vertical flight restored",
-      "source": "OpenAI Game Studio sprite-pipeline 0.1.2",
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "Generated part textures; explicit eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + authored rig correction",
       "lift": [
         0,
         0,
+        4,
+        8,
         12,
-        16,
-        0,
+        8,
+        4,
         0
       ]
     }

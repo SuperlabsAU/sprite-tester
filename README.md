@@ -2,7 +2,7 @@
 
 A browser comparison of five sprite-animation workflows using one character: a man with glasses, a black T-shirt, jeans and trainers.
 
-**20 viewers · 5 methods · 4 views · 3 actions · 6 frames per clip**
+**20 viewers · 5 methods · 4 views · 3 actions · 6–8 frames per clip · 384 frames**
 
 Compare platformer, arcade street, isometric and top-down RPG views. Switch between walking, running and jumping, pause and step through frames, adjust playback speed, and inspect ground travel or in-place motion.
 
@@ -30,13 +30,13 @@ Open http://127.0.0.1:4173/.
 | B | [Pixel Art Agent Skill](https://github.com/ervareza/agent-skill-pixel-art) | Image-generated poses, fixed DB32 palette and corrected registration |
 | C | [Sprite-gen](https://github.com/gpwork4u/sprite-gen) | Image-generated three-frame chunks and native processing |
 | D | [Pixel-plugin / Aseprite](https://github.com/willibrandon/pixel-plugin) | Explicitly authored pixel poses drawn and exported through its MCP server |
-| E | [OpenAI Game Studio](https://github.com/openai/plugins/tree/main/plugins/game-studio) | Shipped seed, complete generated strip, native shared scale and restored source flight offsets |
+| E | [OpenAI Game Studio](https://github.com/openai/plugins/tree/main/plugins/game-studio) | Generated character parts with an authored eight-pose limb and registration correction |
 
 D includes a detail pass with textured hair, clearer faces and glasses, clothing folds, denim seams and trainer detail. Its original motion coordinates and timing are preserved.
 
-E was added on 12 October 2026 using Game Studio 0.1.2. It adds 12 clips / 72 frames; all 48 A–D PNG strips are unchanged. Its generated gait can still repeat lead-leg poses and drift around the silhouette centre; RPG jump touches down early at frame 5. See [E’s generation record and reproducibility](runs/e/README.md), [independent frame review](runs/e/REVIEW.md) and [browser checks](runs/e/browser-checks.md).
+E uses Game Studio 0.1.2 artwork extended with an explicit rig correction, updated 12 October 2026. Its 12 clips now contain 96 frames, with alternating anatomical contacts, opposing arm swings, stable body registration and fixed near/far overlap. A guided strip-generation retry failed and was rejected; the shipped result combines generated parts with authored motion. All 48 A–D PNG strips remain unchanged. See [E’s corrected generation record](runs/e/revision-2/README.md), [independent review](runs/e/revision-2/REVIEW.md) and [browser checks](runs/e/revision-2/browser-checks.md). The [original six-frame experiment](runs/e/README.md) is retained for comparison.
 
-This is an exploratory visual comparison, not a controlled ranking. Six-frame animation remains visibly stepped, and ground distances do not certify zero foot sliding. See [experiment notes](site/EXPERIMENT.md), [D’s review](runs/d/REVIEW.md) and [before/after artwork](runs/d/detail-pass/before-after.png).
+This is an exploratory visual comparison, not a controlled ranking. Held-frame animation remains visibly stepped, and ground distances do not certify zero foot sliding. See [experiment notes](site/EXPERIMENT.md), [D’s review](runs/d/REVIEW.md) and [before/after artwork](runs/d/detail-pass/before-after.png).
 
 ## Files and checks
 

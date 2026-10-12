@@ -12,7 +12,7 @@ const SpritePlayback = (() => {
     const durations=Array.isArray(raw.durations)&&raw.durations.length===expected&&raw.durations.every(v=>Number.isFinite(v)&&v>0)?raw.durations.slice():Array.from({length:expected},(_,i)=>defaults[action][i%defaults[action].length]);
     const projected=view==='isometric'?(action==='walk'?[24,12]:[40,20]):view==='rpg'?(action==='walk'?[0,24]:[0,40]):[(action==='walk'?40:64)*(view==='street'?2:1),0];
     const stride=action==='jump'?[0,0]:Array.isArray(raw.stride)&&raw.stride.length===2&&raw.stride.every(Number.isFinite)?raw.stride.slice():projected;
-    return {frames:expected,durations,stride,labels:action==='jump'&&expected===6?jumpLabels:Array.from({length:expected},(_,i)=>`Phase ${i+1}`),total:durations.reduce((a,b)=>a+b,0),measured:raw.calibrated===true||raw.calibration!==undefined,raw};
+    return {frames:expected,durations,stride,labels:Array.isArray(raw.labels)&&raw.labels.length===expected&&raw.labels.every(v=>typeof v==='string')?raw.labels.slice():action==='jump'&&expected===6?jumpLabels:Array.from({length:expected},(_,i)=>`Phase ${i+1}`),total:durations.reduce((a,b)=>a+b,0),measured:raw.calibrated===true||raw.calibration!==undefined,raw};
   }
   function sample(elapsed, config, travelling=true) {
     const time=Math.max(0,Number.isFinite(elapsed)?elapsed:0), cycle=time/config.total, local=time%config.total;
@@ -33,7 +33,7 @@ function initialiseSpriteLab(){
   let action='walk',playing=!reduced.matches,speed=1,elapsed=0,lastTime=null,mode='travel',metadata={},ready=false;
   const capital=s=>s[0].toUpperCase()+s.slice(1);
   const keyFor=v=>`${v.skill}-${v.view}-${action}`;
-  const master=()=>SpritePlayback.clip(`a-platform-${action}`,metadata);
+  const master=()=>SpritePlayback.clip(`e-platform-${action}`,metadata);
   document.querySelector('#comparisons').innerHTML=views.map(view=>`<section class="comparison ${view.id}" aria-labelledby="title-${view.id}"><div class="row-title"><h3 id="title-${view.id}">${view.name}</h3><span>${view.note}</span></div><div class="pair">${['a','b','c','d','e'].map(skill=>`<article class="sprite-card" aria-label="${({a:'Character Animation Creator',b:'Pixel Art Agent Skill',c:'Sprite-gen',d:'Pixel-plugin / Aseprite',e:'OpenAI Game Studio'})[skill]}: ${view.name}"><div class="stage"><div class="ground-plane" aria-hidden="true"></div><span class="view-badge">${view.badge}</span><canvas width="${view.cell}" height="${view.cell}" data-view="${view.id}" data-skill="${skill}" aria-label="${view.name} animation"></canvas></div><div class="card-meta"><span class="current-action">Walk</span><span class="skill-tag">${skill.toUpperCase()} · 6 FRAMES</span></div><div class="motion-readout" aria-label="Travel distance"></div></article>`).join('')}</div></section>`).join('');
   document.querySelectorAll('canvas').forEach(canvas=>viewers.push({canvas,ctx:canvas.getContext('2d'),view:canvas.dataset.view,skill:canvas.dataset.skill,cell:canvas.width,card:canvas.closest('.sprite-card'),ground:canvas.parentElement.querySelector('.ground-plane'),scale:3}));
   function resize(){for(const v of viewers){const rect=v.canvas.getBoundingClientRect(),stage=v.canvas.parentElement.getBoundingClientRect();v.scale=rect.width/v.cell;v.ground.style.setProperty('--ground-bottom',`${stage.bottom-rect.bottom+6*v.scale}px`);v.ground.style.setProperty('--tile-size',`${8*v.scale}px`);}draw();}
@@ -42,9 +42,9 @@ function initialiseSpriteLab(){
     for(const v of viewers){const key=keyFor(v),config=SpritePlayback.clip(key,metadata),state=SpritePlayback.sample(elapsed,config,mode==='travel'),img=images.get(key);v.ctx.clearRect(0,0,v.cell,v.cell);v.ctx.imageSmoothingEnabled=false;
       if(img?.complete&&img.naturalWidth){const available=Math.floor(img.naturalWidth/v.cell);if(state.frame<available)v.ctx.drawImage(img,state.frame*v.cell,0,v.cell,v.cell,0,0,v.cell,v.cell);}
       v.ground.style.backgroundPosition=`${-state.distance[0]*v.scale}px ${-state.distance[1]*v.scale}px`;
-      v.canvas.dataset.frame=String(state.frame+1);v.ground.dataset.distance=state.distance.map(n=>n.toFixed(3)).join(',');
+      v.canvas.dataset.frame=String(state.frame+1);v.card.querySelector('.skill-tag').textContent=`${v.skill.toUpperCase()} · F${state.frame+1} / ${config.frames}`;v.ground.dataset.distance=state.distance.map(n=>n.toFixed(3)).join(',');
     }
-    document.querySelector('#frame-status').textContent=ready?`Frame ${current.frame+1} / ${primary.frames} · ${primary.labels[current.frame]}`:'Loading motion data…';
+    document.querySelector('#frame-status').textContent=ready?`E frame ${current.frame+1} / ${primary.frames} · ${primary.labels[current.frame]}`:'Loading motion data…';
     document.querySelectorAll('#timeline button').forEach((button,i)=>{button.classList.toggle('active',i===current.frame);button.setAttribute('aria-pressed',String(i===current.frame));});
   }
   function timeline(){const config=master();document.querySelector('#timeline').style?.setProperty('--frame-count',config.frames);document.querySelector('#timeline').innerHTML=config.labels.map((label,i)=>`<button type="button" data-frame="${i}" aria-label="Pause at frame ${i+1}: ${label}, ${config.durations[i]} milliseconds"><span>${i+1} · ${label}</span><small>${config.durations[i]} ms</small></button>`).join('');}
@@ -75,13 +75,13 @@ function initialiseSpriteLab(){
   if(document.modelContext?.registerTool){
     const lifecycle=new AbortController();
     const readState=()=>({action,playing,speed,mode,frame:SpritePlayback.sample(elapsed,master()).frame+1,frames:master().frames,spriteCount:viewers.length});
-    const tool={name:'configure_sprite_playback',title:'Configure sprite playback',description:'Choose animation, speed, ground travel, pause state and frame across twenty sprite comparisons. Frame counts and durations follow the selected clip metadata. Current sheets have six frames.',inputSchema:{type:'object',properties:{action:{type:'string',enum:actions},playing:{type:'boolean'},speed:{type:'number',enum:[0.5,1,1.5]},mode:{type:'string',enum:['travel','in-place']},frame:{type:'integer',minimum:1,maximum:8}},additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input){
+    const tool={name:'configure_sprite_playback',title:'Configure sprite playback',description:'Choose animation, speed, ground travel, pause state and frame across twenty sprite comparisons. Frame counts and durations follow the selected clip metadata. E uses eight frames; A–D retain six. The shared timeline follows E; each card shows its own sampled frame.',inputSchema:{type:'object',properties:{action:{type:'string',enum:actions},playing:{type:'boolean'},speed:{type:'number',enum:[0.5,1,1.5]},mode:{type:'string',enum:['travel','in-place']},frame:{type:'integer',minimum:1,maximum:8}},additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input){
       if(!input||typeof input!=='object'||Object.keys(input).some(k=>!['action','playing','speed','mode','frame'].includes(k)))throw new Error('Invalid playback settings');
       if(input.action!==undefined&&!actions.includes(input.action))throw new Error('Invalid action');
       if(input.playing!==undefined&&typeof input.playing!=='boolean')throw new Error('Invalid playing flag');
       if(input.speed!==undefined&&![0.5,1,1.5].includes(input.speed))throw new Error('Invalid speed');
       if(input.mode!==undefined&&!['travel','in-place'].includes(input.mode))throw new Error('Invalid mode');
-      const target=SpritePlayback.clip(`a-platform-${input.action??action}`,metadata);
+      const target=SpritePlayback.clip(`e-platform-${input.action??action}`,metadata);
       if(input.frame!==undefined&&(!Number.isInteger(input.frame)||input.frame<1||input.frame>target.frames))throw new Error(`Frame must be 1–${target.frames} for ${input.action??action}`);
       if(input.action!==undefined)setAction(input.action);
       if(input.speed!==undefined){speed=input.speed;document.querySelector('#speed').value=String(speed);}

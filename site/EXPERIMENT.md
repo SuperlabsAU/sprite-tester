@@ -1,6 +1,6 @@
 # Sprite skill comparison — updated 12 October 2026
 
-Current output: twenty animated sprite viewers, five workflows across four views. Every viewer contains walk, run and jump (six frames each: 360 final frames). The original eight-viewer comparison was expanded at the user’s request.
+Current output: twenty animated sprite viewers, five workflows across four views. Every viewer contains walk, run and jump (A–D six frames/action, E eight: 384 final frames). The original eight-viewer comparison was expanded at the user’s request.
 
 Character: adult male with rectangular black glasses, short dark hair, black T-shirt, blue jeans and grey/white sneakers. A shared image-generated identity reference grounds A–C; E uses shipped A frames as view-specific seeds. A–C and E use the built-in image generator. D uses explicitly authored pixel poses through Pixel-plugin/Aseprite.
 
@@ -82,3 +82,9 @@ The upstream scripts remain unmodified in `../vendor/skills/game-studio/`. `../r
 All 72 new frames were independently reviewed. Repeated lead-leg silhouettes, native whole-silhouette centring drift, modest action-switch scale differences and RPG jump's early frame-5 touchdown remain visible and are disclosed on the page. No empty frame, clipping or packaged/source mismatch was found. Eight tests pass; actual browser checks covered all 20 sprites, jump/run selection, pause, frame selection, speed, in-place mode and horizontal scrolling at desktop/mobile widths.
 
 The current public site contains 60 PNG strips and `motion.json` revision 6. Full prompts, raw strips, native and packaged frames, proof sheets, measurements and review: [E's record](../runs/e/README.md). Reproduce with `python3 runs/e/package.py` from the repository root.
+
+## E limb correction — 12 October 2026
+
+The user requested applying explicit contact/arm phases, depth ownership and body registration. A pose-guided full-strip retry still repeated the lead leg and was rejected. The accepted E correction uses image-generated part atlases and an authored Canvas limb rig: eight poses/action, constant head/torso art, opposite R/L contacts at F1/F5, counter-arm swing, fixed near/far layers, sampled stance-trajectory travel, and jump descent through F7 before landing F8. This hybrid extends Game Studio's native pipeline and changes the appearance somewhat.
+
+Cycle durations remain 720/540/680ms; the shared timeline follows E's eight phases and each card shows its own frame/count. A–D's 48 PNGs are unchanged. Eleven local tests pass and all 96 E frames retain transparent margins. Cut-out joints, raster rotation, held-frame movement and simplified biomechanics remain visible; zero jitter/foot slip is not claimed. Generation, rejected candidate, prior output, rig, measurements, review and reproduction are in [revision 2](../runs/e/revision-2/README.md).

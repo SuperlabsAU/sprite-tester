@@ -2,7 +2,7 @@ const {test}=require('node:test');
 const assert=require('node:assert/strict');
 const motion=require('../dist/app.js');
 
-test('all five methods ship complete six-frame sheets and matching motion data',()=>{
+test('all five methods ship complete sheets and matching motion data',()=>{
  const fs=require('node:fs'),path=require('node:path');
  const assets=path.join(__dirname,'../dist/assets');
  const metadata=JSON.parse(fs.readFileSync(path.join(assets,'motion.json'),'utf8'));
@@ -12,17 +12,18 @@ test('all five methods ship complete six-frame sheets and matching motion data',
   const data=fs.readFileSync(path.join(assets,name));
   assert.equal(data.subarray(1,4).toString(),'PNG');
   const cell=name.includes('-street-')?128:64;
-  assert.equal(data.readUInt32BE(16),6*cell,name);
+  const expected=name.startsWith('e-')?8:6;
+  assert.equal(data.readUInt32BE(16),expected*cell,name);
   assert.equal(data.readUInt32BE(20),cell,name);
   assert.equal(data[25],6,`${name}: RGBA transparency required`);
   const clip=motion.clip(name.slice(0,-4),metadata);
-  assert.equal(clip.frames,6,name);
-  assert.equal(clip.durations.length,6,name);
+  assert.equal(clip.frames,expected,name);
+  assert.equal(clip.durations.length,expected,name);
  }
  for(const view of ['platform','street','isometric','rpg']){
   const jump=metadata.clips[`e-${view}-jump`];
-  assert.equal(jump.lift.indexOf(Math.max(...jump.lift)),3,`${view}: apex is frame 4`);
-  assert.equal(jump.lift[0],0);assert.equal(jump.lift[5],0);
+  assert.equal(jump.lift.indexOf(Math.max(...jump.lift)),4,`${view}: apex is frame 5`);
+  assert.equal(jump.lift[0],0);assert.equal(jump.lift[7],0);assert.ok(jump.lift[6]>0);
   assert.deepEqual(jump.stride,[0,0]);
  }
 });
@@ -81,14 +82,14 @@ test('browser controls initialise, reduced motion pauses, and WebMCP validates a
  const vm=require('node:vm'),fs=require('node:fs');
  const elements=new Map(),mediaListeners={};let registered;
  const element=selector=>{if(!elements.has(selector))elements.set(selector,{innerHTML:'',textContent:'',value:'',dataset:{},listeners:{},classList:{toggle(){}},setAttribute(){},addEventListener(name,handler){this.listeners[name]=handler;}});return elements.get(selector);};
- const context={module:{exports:{}},console,AbortController,Image:class{},ResizeObserver:class{observe(){}},requestAnimationFrame(){},addEventListener(){},fetch:async()=>({ok:true,json:async()=>({clips:{}})}),matchMedia:()=>({matches:true,addEventListener(name,handler){mediaListeners[name]=handler;}}),document:{body:element('body'),querySelector:element,querySelectorAll:()=>[],addEventListener(){},modelContext:{registerTool(tool){registered=tool;}}}};
+ const context={module:{exports:{}},console,AbortController,Image:class{},ResizeObserver:class{observe(){}},requestAnimationFrame(){},addEventListener(){},fetch:async()=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(require.resolve('../dist/assets/motion.json'),'utf8'))}),matchMedia:()=>({matches:true,addEventListener(name,handler){mediaListeners[name]=handler;}}),document:{body:element('body'),querySelector:element,querySelectorAll:()=>[],addEventListener(){},modelContext:{registerTool(tool){registered=tool;}}}};
  vm.runInNewContext(fs.readFileSync(require.resolve('../dist/app.js'),'utf8'),context);
  await new Promise(resolve=>setImmediate(resolve));
  assert.ok(registered);
- let state=registered.execute({});assert.equal(state.playing,false);assert.equal(state.frames,6);
- state=registered.execute({action:'walk',frame:6});assert.equal(state.frame,6);assert.equal(state.playing,false);
- assert.throws(()=>registered.execute({action:'jump',frame:7}),/1–6/);
- state=registered.execute({});assert.equal(state.action,'walk');assert.equal(state.frame,6);
- state=registered.execute({action:'jump',frame:6,mode:'in-place'});assert.equal(state.frames,6);assert.equal(state.frame,6);assert.equal(state.mode,'in-place');
+ let state=registered.execute({});assert.equal(state.playing,false);assert.equal(state.frames,8);
+ state=registered.execute({action:'walk',frame:8});assert.equal(state.frame,8);assert.equal(state.playing,false);
+ assert.throws(()=>registered.execute({action:'jump',frame:9}),/1–8/);
+ state=registered.execute({});assert.equal(state.action,'walk');assert.equal(state.frame,8);
+ state=registered.execute({action:'jump',frame:8,mode:'in-place'});assert.equal(state.frames,8);assert.equal(state.frame,8);assert.equal(state.mode,'in-place');
  registered.execute({playing:true});mediaListeners.change({matches:true});assert.equal(registered.execute({}).playing,false);
 });

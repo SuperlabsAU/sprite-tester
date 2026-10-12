@@ -1,5 +1,7 @@
 # E · OpenAI Game Studio
 
+**Current output:** [revision 2](revision-2/README.md) applies an authored eight-pose rig correction to generated parts. The six-frame process below is the original experiment, preserved for comparison; `package.py` rebuilds that historical result.
+
 Added 12 October 2026 using OpenAI's [Game Studio](https://github.com/openai/plugins/tree/main/plugins/game-studio) `sprite-pipeline` skill, plugin version 0.1.2. The complete installed bundle is retained in `../../vendor/skills/game-studio`; local installer cache identifier `bd2122cb` is a cache version, not a verified Git commit. The upstream manifest declares MIT licensing; its metadata and supplied files are preserved.
 
 The same character brief, four views, output cells, three actions and six-frame budget are used. E adds 12 clips / 72 frames, bringing the tester to 20 viewers / 60 clips / 360 frames. The image backend is the same built-in generator used for A–C; this compares workflows, not different models.
