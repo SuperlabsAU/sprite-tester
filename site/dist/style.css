@@ -25,3 +25,6 @@
 .sprite-card:has([data-skill="e"]){border-color:#dfc797}
 @media(max-width:1100px){.comparison-hint{display:block}}
 @media(max-width:760px){.comparison-board .column-headings>div{flex-wrap:nowrap;align-items:center;padding:0 8px;gap:8px}.comparison-board .column-headings h2{font-size:14px}.comparison-board .column-headings div div>span{font-size:12px}.comparison-board .stage{height:224px}.comparison-board .street .stage{height:256px}.comparison-board .view-badge{font-size:10px}.comparison-board .card-meta{font-size:12px}.comparison-board .card-meta .skill-tag{font-size:10px}.comparison-board .motion-readout{font-size:10px}.comparison-board .stage canvas{width:192px}.comparison-board .street canvas{width:224px}}
+
+/* Link the existing sprite comparison to its playable office prototype. */
+.game-link{margin-left:auto;margin-right:26px;padding:10px 13px;border:1px solid #c9d5ee;border-radius:7px;background:#eef3ff;font-size:12px;font-weight:650;text-decoration:none;white-space:nowrap}.game-link:hover{background:#dfe8ff}@media(max-width:760px){.game-link{margin-right:0;padding:9px;font-size:11px}.brand{font-size:12px;gap:8px}}

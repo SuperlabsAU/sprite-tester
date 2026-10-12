@@ -71,3 +71,9 @@ Revision 3 restored the face but retained the wrong body proportions. E now reus
 ### E pixel gap cleanup — 12 October 2026
 
 [Revision 5](runs/e/revision-5/README.md) inspects all 96 E frames and applies 589 reviewed pixel additions at spectacle, clothing and joint gaps. All original visible pixels, motion and A–D comparisons are preserved. The exporter uses a hash-guarded exact repair manifest; the audit checks all 688,128 RGBA pixels. Before/after/added-pixel sheets and independent review are included.
+
+## Out of Office RPG — 12 October 2026
+
+[Play the office RPG](https://superlabsau.github.io/sprite-tester/office-rpg/). One furnished office floor, wandering coworkers, four turn-based encounters, coffee recovery and a complete clock-off ending. Collect three departmental approvals, defeat Brenda and escape through the lift. Keyboard: arrows/WASD, Shift to run, E/Space to interact; mouse destinations and phone controls are supported. Progress saves locally.
+
+The game reuses the approved E character artwork with role colour variants. Phaser 3.90.0 is bundled locally under its MIT licence. No build or account is required. Locally visit `/office-rpg/` on the existing server. Run `node --test site/tests/*.test.*` for rules, input and Sprite Lab checks. See the [design](docs/office-rpg/DESIGN.md), [playtest](docs/office-rpg/PLAYTEST.md) and [release record](docs/office-rpg/RELEASE.md).
