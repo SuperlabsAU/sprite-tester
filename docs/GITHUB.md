@@ -1,6 +1,6 @@
 # GitHub source repository
 
-Verified 12 October 2026: [SuperlabsAU/sprite-tester](https://github.com/SuperlabsAU/sprite-tester) remains public. Game Studio method E was published from `main` at commit `9659130cff0d0f08eb2d5288d0e09c55803f4e83`. The original four-method snapshot was `ac08fe1a1d23050f58513ac1b3cadf1177ea00d4`.
+Verified 12 October 2026: [SuperlabsAU/sprite-tester](https://github.com/SuperlabsAU/sprite-tester) remains public. The corrected Game Studio method E is live from `main` at commit `0ceb70d12f1ef98ae536b0c6a65a05ccb4a7d6f6`; its initial addition was `9659130cff0d0f08eb2d5288d0e09c55803f4e83`. The original four-method snapshot was `ac08fe1a1d23050f58513ac1b3cadf1177ea00d4`.
 
 The publishing checkout is `.local-tools/sprite-tester-publish` within this workspace. It combines the root project's tracked assets and scripts with the separate `site/` repository. Both original local repositories retain their existing histories. Use the publishing checkout or a fresh GitHub clone for future uploads; do not push either original repository's unrelated history over the public branch.
 
@@ -23,3 +23,13 @@ The existing Sites project remains separate and unpublished. Verify current remo
 The live in-app browser showed the five-method heading and all 20 viewers. All 20 run sprites rendered at frame 6 and all 20 jump sprites rendered at frame 4; E's four view labels and matching frame data were confirmed. Motion metadata loaded with the updated distances. No loading-error messages or console errors were observed. A few sheets arrived after the initial page load; final captures were taken once all viewers rendered. Playback was returned to walk at 1× with ground travel.
 
 E adds twelve clips / 72 frames while retaining all 48 A–D PNG hashes. Prompts, raw strips, native output, packaged frames, measurements, independent review, browser checks and a live proof screenshot are in `runs/e/`. The bundled upstream Game Studio version is 0.1.2. The release record is committed separately after live verification; documentation-only changes do not retrigger this deployment.
+
+## E motion correction — 12 October 2026
+
+[Deployment run 38196099500](https://github.com/SuperlabsAU/sprite-tester/actions/runs/38196099500) succeeded in 21 seconds for commit `0ceb70d12f1ef98ae536b0c6a65a05ccb4a7d6f6`. The existing workflow deployed the corrected twelve E strips and eight-phase playback after its eight site tests passed. No workflow or visibility settings changed.
+
+E now contains 96 frames; the comparison totals 384. A prompt-only retry failed anatomical alternation and was rejected. The accepted correction combines generated character-part artwork with an explicit joint and overlap rig, clearly disclosed on the page. Eleven local/publishing tests pass, and an independent agent inspected all 96 frames. Every shipped cell matches its saved frame, all have non-zero-alpha margins, and all 48 A–D strips retain their hashes.
+
+The published browser rendered all 20 viewers at walk F5, run F8, jump apex F5 and landing F8. E's timeline accepts frame 8 in every action; A–D cards display their own six-frame indices. Metadata supplies corrected travel distances. No console errors were observed. Desktop/mobile local checks and live proof are in `runs/e/revision-2/`; playback was returned to walk, 1×, ground travel. Raster rotation, segment deformation and held-pose stepping remain documented limitations.
+
+The original local repositories retain commits `19c6e7c` (rig/art records) and `93fdd8b` (site). The public release evidence is recorded in a subsequent documentation-only commit.
