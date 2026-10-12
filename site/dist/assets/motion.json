@@ -1,5 +1,5 @@
 {
-  "revision": 8,
+  "revision": 9,
   "clips": {
     "a-platform-walk": {
       "frames": 6,
@@ -924,13 +924,13 @@
         "L up"
       ],
       "stride": [
-        32,
+        28,
         0
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
@@ -965,22 +965,22 @@
         "Flight"
       ],
       "stride": [
-        53.333,
+        45.547,
         0
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
         0,
-        3,
+        1.5,
         0,
         0,
         0,
-        3
+        1.5
       ]
     },
     "e-platform-jump": {
@@ -1010,17 +1010,17 @@
         0
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
-        4,
-        8,
-        12,
-        8,
-        4,
+        3,
+        7,
+        10,
+        7,
+        3,
         0
       ]
     },
@@ -1047,13 +1047,13 @@
         "L up"
       ],
       "stride": [
-        64,
+        56,
         0
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
@@ -1088,22 +1088,22 @@
         "Flight"
       ],
       "stride": [
-        106.667,
+        91.093,
         0
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
         0,
-        6,
+        3,
         0,
         0,
         0,
-        6
+        3
       ]
     },
     "e-street-jump": {
@@ -1133,17 +1133,17 @@
         0
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
-        8,
-        16,
-        24,
-        16,
-        8,
+        6,
+        14,
+        20,
+        14,
+        6,
         0
       ]
     },
@@ -1170,13 +1170,13 @@
         "L up"
       ],
       "stride": [
-        27.712,
-        13.856
+        16,
+        10
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
@@ -1211,22 +1211,22 @@
         "Flight"
       ],
       "stride": [
-        46.187,
-        23.093
+        26.027,
+        16.267
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
         0,
-        3,
+        1.5,
         0,
         0,
         0,
-        3
+        1.5
       ]
     },
     "e-isometric-jump": {
@@ -1256,17 +1256,17 @@
         0
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
-        4,
-        8,
-        12,
-        8,
-        4,
+        3,
+        7,
+        10,
+        7,
+        3,
         0
       ]
     },
@@ -1294,12 +1294,12 @@
       ],
       "stride": [
         0,
-        19.84
+        14
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
@@ -1335,21 +1335,21 @@
       ],
       "stride": [
         0,
-        33.067
+        22.773
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
         0,
-        3,
+        1.5,
         0,
         0,
         0,
-        3
+        1.5
       ]
     },
     "e-rpg-jump": {
@@ -1379,17 +1379,17 @@
         0
       ],
       "calibrated": false,
-      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
-      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
-      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "distanceBasis": "A-derived projected stance trajectory; travel cancels the sampled planted ankle displacement. Held frames still step.",
+      "poseStatus": "Native A body, clothing and face pixels articulated with view-specific proportions; alternating limbs and fixed near/far ownership",
+      "source": "OpenAI Game Studio motion correction + native A artwork rig",
       "lift": [
         0,
         0,
-        4,
-        8,
-        12,
-        8,
-        4,
+        3,
+        7,
+        10,
+        7,
+        3,
         0
       ]
     }

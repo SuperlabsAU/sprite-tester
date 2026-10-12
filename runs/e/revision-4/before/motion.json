@@ -1,0 +1,1397 @@
+{
+  "revision": 8,
+  "clips": {
+    "a-platform-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        42,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "First stance interval estimate only; later pose correspondence unresolved",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "a-platform-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        63,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "a-platform-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Vertical only",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "a-street-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        36,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "First stance interval estimate only; later pose correspondence unresolved",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "a-street-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        54,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "a-street-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Vertical only",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "a-isometric-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        24,
+        12
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "a-isometric-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        36,
+        18
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "a-isometric-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Vertical only",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "a-rpg-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        0,
+        18
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "a-rpg-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        0,
+        27
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "a-rpg-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Vertical only",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-platform-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        39,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "First stance interval estimate only; later pose correspondence unresolved",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-platform-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        58.5,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-platform-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Vertical only",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-street-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        60,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "First stance interval estimate only; later pose correspondence unresolved",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-street-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        90,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-street-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Vertical only",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-isometric-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        24,
+        12
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-isometric-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        36,
+        18
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-isometric-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Vertical only",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-rpg-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        0,
+        18
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-rpg-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        0,
+        27
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview distance; full foot-lock validation unavailable",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "b-rpg-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Vertical only",
+      "poseStatus": "Original generated poses retained; lead-leg repetition unresolved"
+    },
+    "c-platform-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        40,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 3,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "c-platform-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        60,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 3,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "c-platform-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 3,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "c-street-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        48,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 11,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "c-street-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        72,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 11,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "c-street-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 11,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "c-isometric-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        24,
+        12
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 3,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "c-isometric-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        36,
+        18
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 3,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "c-isometric-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 3,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "c-rpg-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        0,
+        18
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 3,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "c-rpg-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        0,
+        27
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 3,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "c-rpg-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Reference preview only; no foot-lock claim",
+      "method": "sprite-gen a23e846; app image tool transport",
+      "stageOffsetY": 3,
+      "poseStatus": "Native generated poses; motion review required"
+    },
+    "d-platform-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        28,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "d-platform-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        60,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "d-platform-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "d-street-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        64.4,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "d-street-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        138,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "d-street-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "d-isometric-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        24.248,
+        12.124
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "d-isometric-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        51.96,
+        25.98
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "d-isometric-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "d-rpg-walk": {
+      "frames": 6,
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "stride": [
+        0,
+        17.36
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "d-rpg-run": {
+      "frames": 6,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "stride": [
+        0,
+        37.2
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "d-rpg-jump": {
+      "frames": 6,
+      "durations": [
+        140,
+        70,
+        100,
+        140,
+        100,
+        130
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory; pixel rounding and frame holds still permit sliding",
+      "method": "pixel-plugin 0.5.0 dee3506 / Aseprite 1.3.18.6 source build",
+      "poseStatus": "Detailed pixel poses via draw_pixels; original movement retained"
+    },
+    "e-platform-walk": {
+      "frames": 8,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "labels": [
+        "R contact",
+        "R down",
+        "L passing",
+        "R up",
+        "L contact",
+        "L down",
+        "R passing",
+        "L up"
+      ],
+      "stride": [
+        32,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "e-platform-run": {
+      "frames": 8,
+      "durations": [
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5
+      ],
+      "labels": [
+        "R contact",
+        "R stance",
+        "L passing",
+        "Flight",
+        "L contact",
+        "L stance",
+        "R passing",
+        "Flight"
+      ],
+      "stride": [
+        53.333,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "e-platform-jump": {
+      "frames": 8,
+      "durations": [
+        100,
+        80,
+        70,
+        90,
+        120,
+        90,
+        60,
+        70
+      ],
+      "labels": [
+        "Crouch",
+        "Launch",
+        "Rise",
+        "Rise",
+        "Apex",
+        "Fall",
+        "Fall",
+        "Landing"
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        4,
+        8,
+        12,
+        8,
+        4,
+        0
+      ]
+    },
+    "e-street-walk": {
+      "frames": 8,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "labels": [
+        "R contact",
+        "R down",
+        "L passing",
+        "R up",
+        "L contact",
+        "L down",
+        "R passing",
+        "L up"
+      ],
+      "stride": [
+        64,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "e-street-run": {
+      "frames": 8,
+      "durations": [
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5
+      ],
+      "labels": [
+        "R contact",
+        "R stance",
+        "L passing",
+        "Flight",
+        "L contact",
+        "L stance",
+        "R passing",
+        "Flight"
+      ],
+      "stride": [
+        106.667,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        6
+      ]
+    },
+    "e-street-jump": {
+      "frames": 8,
+      "durations": [
+        100,
+        80,
+        70,
+        90,
+        120,
+        90,
+        60,
+        70
+      ],
+      "labels": [
+        "Crouch",
+        "Launch",
+        "Rise",
+        "Rise",
+        "Apex",
+        "Fall",
+        "Fall",
+        "Landing"
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        8,
+        16,
+        24,
+        16,
+        8,
+        0
+      ]
+    },
+    "e-isometric-walk": {
+      "frames": 8,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "labels": [
+        "R contact",
+        "R down",
+        "L passing",
+        "R up",
+        "L contact",
+        "L down",
+        "R passing",
+        "L up"
+      ],
+      "stride": [
+        27.712,
+        13.856
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "e-isometric-run": {
+      "frames": 8,
+      "durations": [
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5
+      ],
+      "labels": [
+        "R contact",
+        "R stance",
+        "L passing",
+        "Flight",
+        "L contact",
+        "L stance",
+        "R passing",
+        "Flight"
+      ],
+      "stride": [
+        46.187,
+        23.093
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "e-isometric-jump": {
+      "frames": 8,
+      "durations": [
+        100,
+        80,
+        70,
+        90,
+        120,
+        90,
+        60,
+        70
+      ],
+      "labels": [
+        "Crouch",
+        "Launch",
+        "Rise",
+        "Rise",
+        "Apex",
+        "Fall",
+        "Fall",
+        "Landing"
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        4,
+        8,
+        12,
+        8,
+        4,
+        0
+      ]
+    },
+    "e-rpg-walk": {
+      "frames": 8,
+      "durations": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "labels": [
+        "R contact",
+        "R down",
+        "L passing",
+        "R up",
+        "L contact",
+        "L down",
+        "R passing",
+        "L up"
+      ],
+      "stride": [
+        0,
+        19.84
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "e-rpg-run": {
+      "frames": 8,
+      "durations": [
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5,
+        67.5
+      ],
+      "labels": [
+        "R contact",
+        "R stance",
+        "L passing",
+        "Flight",
+        "L contact",
+        "L stance",
+        "R passing",
+        "Flight"
+      ],
+      "stride": [
+        0,
+        33.067
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "e-rpg-jump": {
+      "frames": 8,
+      "durations": [
+        100,
+        80,
+        70,
+        90,
+        120,
+        90,
+        60,
+        70
+      ],
+      "labels": [
+        "Crouch",
+        "Launch",
+        "Rise",
+        "Rise",
+        "Apex",
+        "Fall",
+        "Fall",
+        "Landing"
+      ],
+      "stride": [
+        0,
+        0
+      ],
+      "calibrated": false,
+      "distanceBasis": "Authored stance trajectory: sampled joint displacement matches travel. Raster edges and held frames can still slide.",
+      "poseStatus": "A-anchored clothing textures and native A head pixels; eight-pose limb rig with fixed near/far ownership and pelvis registration",
+      "source": "OpenAI Game Studio + A appearance restoration + authored rig correction",
+      "lift": [
+        0,
+        0,
+        4,
+        8,
+        12,
+        8,
+        4,
+        0
+      ]
+    }
+  }
+}

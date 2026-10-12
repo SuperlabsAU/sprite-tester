@@ -1,0 +1,1064 @@
+{
+  "frames": [
+    {
+      "clip": "platform-walk",
+      "frame": 1,
+      "bounds": [
+        19,
+        13,
+        45,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 2,
+      "bounds": [
+        22,
+        13,
+        42,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 3,
+      "bounds": [
+        24,
+        13,
+        40,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 4,
+      "bounds": [
+        24,
+        13,
+        40,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 5,
+      "bounds": [
+        21,
+        13,
+        42,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 6,
+      "bounds": [
+        24,
+        13,
+        40,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 7,
+      "bounds": [
+        24,
+        13,
+        40,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 8,
+      "bounds": [
+        22,
+        13,
+        42,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-run",
+      "frame": 1,
+      "bounds": [
+        21,
+        14,
+        47,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-run",
+      "frame": 2,
+      "bounds": [
+        23,
+        14,
+        44,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-run",
+      "frame": 3,
+      "bounds": [
+        25,
+        13,
+        41,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-run",
+      "frame": 4,
+      "bounds": [
+        19,
+        11,
+        41,
+        58
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-run",
+      "frame": 5,
+      "bounds": [
+        23,
+        14,
+        44,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-run",
+      "frame": 6,
+      "bounds": [
+        26,
+        14,
+        41,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-run",
+      "frame": 7,
+      "bounds": [
+        23,
+        13,
+        41,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-run",
+      "frame": 8,
+      "bounds": [
+        17,
+        11,
+        44,
+        58
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 1,
+      "bounds": [
+        15,
+        15,
+        44,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 2,
+      "bounds": [
+        14,
+        13,
+        45,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 3,
+      "bounds": [
+        14,
+        10,
+        45,
+        55
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 4,
+      "bounds": [
+        14,
+        7,
+        44,
+        49
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 5,
+      "bounds": [
+        14,
+        5,
+        44,
+        45
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 6,
+      "bounds": [
+        14,
+        7,
+        45,
+        49
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 7,
+      "bounds": [
+        14,
+        10,
+        45,
+        55
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 8,
+      "bounds": [
+        15,
+        15,
+        44,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-walk",
+      "frame": 1,
+      "bounds": [
+        40,
+        31,
+        91,
+        123
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-walk",
+      "frame": 2,
+      "bounds": [
+        47,
+        32,
+        84,
+        123
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-walk",
+      "frame": 3,
+      "bounds": [
+        50,
+        31,
+        78,
+        123
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-walk",
+      "frame": 4,
+      "bounds": [
+        49,
+        30,
+        80,
+        123
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-walk",
+      "frame": 5,
+      "bounds": [
+        43,
+        31,
+        85,
+        123
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-walk",
+      "frame": 6,
+      "bounds": [
+        50,
+        32,
+        78,
+        122
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-walk",
+      "frame": 7,
+      "bounds": [
+        50,
+        31,
+        79,
+        122
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-walk",
+      "frame": 8,
+      "bounds": [
+        47,
+        30,
+        84,
+        122
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-run",
+      "frame": 1,
+      "bounds": [
+        44,
+        32,
+        94,
+        123
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-run",
+      "frame": 2,
+      "bounds": [
+        50,
+        33,
+        85,
+        123
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-run",
+      "frame": 3,
+      "bounds": [
+        51,
+        31,
+        81,
+        123
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-run",
+      "frame": 4,
+      "bounds": [
+        40,
+        27,
+        83,
+        120
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-run",
+      "frame": 5,
+      "bounds": [
+        47,
+        32,
+        88,
+        122
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-run",
+      "frame": 6,
+      "bounds": [
+        52,
+        33,
+        81,
+        122
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-run",
+      "frame": 7,
+      "bounds": [
+        48,
+        31,
+        84,
+        122
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-run",
+      "frame": 8,
+      "bounds": [
+        37,
+        27,
+        87,
+        119
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-jump",
+      "frame": 1,
+      "bounds": [
+        33,
+        35,
+        91,
+        123
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-jump",
+      "frame": 2,
+      "bounds": [
+        30,
+        31,
+        95,
+        123
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-jump",
+      "frame": 3,
+      "bounds": [
+        30,
+        25,
+        94,
+        115
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-jump",
+      "frame": 4,
+      "bounds": [
+        31,
+        19,
+        93,
+        103
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-jump",
+      "frame": 5,
+      "bounds": [
+        31,
+        15,
+        93,
+        95
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-jump",
+      "frame": 6,
+      "bounds": [
+        30,
+        19,
+        94,
+        103
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-jump",
+      "frame": 7,
+      "bounds": [
+        30,
+        25,
+        95,
+        115
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "street-jump",
+      "frame": 8,
+      "bounds": [
+        33,
+        35,
+        91,
+        123
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 1,
+      "bounds": [
+        22,
+        12,
+        44,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 2,
+      "bounds": [
+        23,
+        12,
+        43,
+        58
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 3,
+      "bounds": [
+        24,
+        12,
+        41,
+        57
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 4,
+      "bounds": [
+        24,
+        12,
+        41,
+        55
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 5,
+      "bounds": [
+        24,
+        12,
+        42,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 6,
+      "bounds": [
+        24,
+        12,
+        41,
+        58
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 7,
+      "bounds": [
+        24,
+        12,
+        41,
+        57
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 8,
+      "bounds": [
+        23,
+        12,
+        43,
+        55
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 1,
+      "bounds": [
+        23,
+        13,
+        48,
+        60
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 2,
+      "bounds": [
+        24,
+        13,
+        47,
+        58
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 3,
+      "bounds": [
+        25,
+        12,
+        43,
+        55
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 4,
+      "bounds": [
+        25,
+        10,
+        42,
+        54
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 5,
+      "bounds": [
+        25,
+        13,
+        43,
+        60
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 6,
+      "bounds": [
+        25,
+        13,
+        42,
+        58
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 7,
+      "bounds": [
+        25,
+        12,
+        43,
+        55
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 8,
+      "bounds": [
+        24,
+        10,
+        47,
+        54
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 1,
+      "bounds": [
+        16,
+        14,
+        48,
+        57
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 2,
+      "bounds": [
+        15,
+        12,
+        48,
+        57
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 3,
+      "bounds": [
+        15,
+        9,
+        48,
+        53
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 4,
+      "bounds": [
+        16,
+        6,
+        47,
+        47
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 5,
+      "bounds": [
+        16,
+        4,
+        47,
+        43
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 6,
+      "bounds": [
+        15,
+        6,
+        48,
+        47
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 7,
+      "bounds": [
+        15,
+        9,
+        48,
+        53
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 8,
+      "bounds": [
+        16,
+        14,
+        48,
+        57
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 1,
+      "bounds": [
+        19,
+        17,
+        41,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 2,
+      "bounds": [
+        19,
+        17,
+        41,
+        57
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 3,
+      "bounds": [
+        19,
+        17,
+        41,
+        56
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 4,
+      "bounds": [
+        19,
+        17,
+        41,
+        54
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 5,
+      "bounds": [
+        19,
+        17,
+        41,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 6,
+      "bounds": [
+        19,
+        17,
+        41,
+        57
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 7,
+      "bounds": [
+        19,
+        17,
+        41,
+        55
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 8,
+      "bounds": [
+        19,
+        17,
+        41,
+        55
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 1,
+      "bounds": [
+        20,
+        18,
+        42,
+        60
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 2,
+      "bounds": [
+        20,
+        18,
+        42,
+        57
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 3,
+      "bounds": [
+        20,
+        17,
+        42,
+        54
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 4,
+      "bounds": [
+        21,
+        15,
+        43,
+        53
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 5,
+      "bounds": [
+        21,
+        18,
+        43,
+        59
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 6,
+      "bounds": [
+        21,
+        18,
+        43,
+        56
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 7,
+      "bounds": [
+        20,
+        17,
+        42,
+        54
+      ],
+      "removedSpecks": 1
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 8,
+      "bounds": [
+        21,
+        15,
+        42,
+        54
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 1,
+      "bounds": [
+        11,
+        19,
+        50,
+        56
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 2,
+      "bounds": [
+        10,
+        17,
+        51,
+        56
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 3,
+      "bounds": [
+        10,
+        14,
+        51,
+        52
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 4,
+      "bounds": [
+        11,
+        11,
+        50,
+        46
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 5,
+      "bounds": [
+        11,
+        9,
+        50,
+        42
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 6,
+      "bounds": [
+        10,
+        11,
+        51,
+        46
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 7,
+      "bounds": [
+        10,
+        14,
+        51,
+        52
+      ],
+      "removedSpecks": 0
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 8,
+      "bounds": [
+        11,
+        19,
+        50,
+        56
+      ],
+      "removedSpecks": 0
+    }
+  ],
+  "unchangedComparisonStrips": 48,
+  "nativeHeadPixelsMatched": 23880,
+  "shoulderRegressionChecks": "passed",
+  "armDenimContamination": "none"
+}
