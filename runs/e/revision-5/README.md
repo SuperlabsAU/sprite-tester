@@ -27,3 +27,5 @@ python3 runs/e/revision-5/proofs.py
 `render.cjs` regenerates raw anatomical layers for diagnosis, applies the already-reviewed manifest and exports the 12 strips. Do not regenerate the proposal manifest automatically when geometry changes: re-review all proposed pixels first. Source changes that invalidate the manifest fail export.
 
 `before/` preserves revision 4. `inspection/*-before.png` and `inspection/*-repair-review.png` show all frames before, after and with added pixels highlighted green. `all-frames.png` shows the final result; `repair-audit.json` records all 688,128 RGBA pixel comparisons and remaining composite negative spaces. `pixel-audit.json` retains the silhouette, head, margin and comparison-asset checks. See [independent review](REVIEW.md).
+
+Published and browser-verified on 12 October 2026 at `36bb3c9`. See [browser checks](browser-checks.md) and [live proof](live-walk-f8.png).

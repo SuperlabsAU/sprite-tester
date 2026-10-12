@@ -1,6 +1,6 @@
 # GitHub source repository
 
-Verified 12 October 2026: [SuperlabsAU/sprite-tester](https://github.com/SuperlabsAU/sprite-tester) remains public. The whole-character-corrected Game Studio method E is live from `main` at commit `027e0c9ae9e0da6e40a98454044f43d9ef771ee0`; its initial addition was `9659130cff0d0f08eb2d5288d0e09c55803f4e83`. The original four-method snapshot was `ac08fe1a1d23050f58513ac1b3cadf1177ea00d4`.
+Verified 12 October 2026: [SuperlabsAU/sprite-tester](https://github.com/SuperlabsAU/sprite-tester) remains public. The pixel-repaired Game Studio method E is live from `main` at commit `36bb3c9af3de02f6eda93c65143fe3517d38bd19`; its initial addition was `9659130cff0d0f08eb2d5288d0e09c55803f4e83`. The original four-method snapshot was `ac08fe1a1d23050f58513ac1b3cadf1177ea00d4`.
 
 The publishing checkout is `.local-tools/sprite-tester-publish` within this workspace. It combines the root project's tracked assets and scripts with the separate `site/` repository. Both original local repositories retain their existing histories. Use the publishing checkout or a fresh GitHub clone for future uploads; do not push either original repository's unrelated history over the public branch.
 
@@ -50,3 +50,12 @@ After deployment, the live in-app browser rendered all 20 viewers at walk F1, ru
 The user rejected revision 3’s overall proportions. E now uses A’s complete native character artwork, camera-specific joints, fuller clothing and shoes, upright contacts, stable arm lengths and bounded foreshortening. Review iterations corrected anatomical mask contamination, stretched limbs, exposed shoulder gaps and unequal RPG jump arms. An independent reviewer accepted whole-character likeness across all 96 frames. The page explicitly identifies E as A artwork with corrected motion, extending the Game Studio experiment. The 48 A–D strips remain unchanged.
 
 The published browser rendered all 20 viewers at walk F1, run F8 and jump F5. Updated artwork, eight-frame controls and revised travel distances were visible; no console errors were observed. Playback was restored to walking at 1× with ground travel. Source, before/after comparison, pixel audit, review and live screenshots are in `runs/e/revision-4/`. The original local implementation commits are `e764c3e` (artwork/scripts/docs) and `ea1f8dc` (site). This live evidence is committed separately without retriggering the site deployment.
+
+
+## E pixel gap repairs — 12 October 2026
+
+[Deployment run 38236391063](https://github.com/SuperlabsAU/sprite-tester/actions/runs/38236391063) succeeded for commit `36bb3c9af3de02f6eda93c65143fe3517d38bd19`. The existing Pages workflow deployed the repaired twelve E strips; workflow and public visibility settings remain as previously authorised.
+
+All 96 frames were inspected on contrasting backgrounds and as isolated anatomical layers. The final manifest adds 589 reviewed pixels across 95 frames, including repeated spectacle-lens holes, joint/seam gaps and three explicitly hand-filled RPG sleeve pixels. All 82,994 existing visible pixels, the complete rig, source geometry, timing and travel remain unchanged. The full RGBA audit compares 688,128 pixels; all 48 A–D strips retain their hashes. Twelve local rig/playback tests pass. Independent visual and code review accepted the final result.
+
+The live browser rendered all 20 cards at walk F6, run F7, jump F5 and walk F8. Updated status text and repaired artwork were visible, with no console errors. Playback was restored to walking at 1× with ground travel. The exact manifest, before/after/addition sheets, audits, editable exporter and live proofs are in `runs/e/revision-5/`. Local implementation commits are `247c7b7` (source/artwork/review) and `bfbacac` (site). Release evidence is committed separately without retriggering deployment.
