@@ -33,3 +33,5 @@ node --test runs/e/revision-3/rig.test.cjs site/tests/playback.test.cjs
 ```
 
 `before/` preserves revision 2’s shipped clips/metadata. Do not rerun earlier revision renderers to build this revision. The result is closer to A’s visual identity, not pixel-identical clothing or continuous hand-drawn motion. Rotated part textures still deform and eight held poses remain angular.
+
+Published and browser-verified 12 October 2026 at `ee201f06539d3c708e4baa373811e9b453b1edb5`. See [browser checks](browser-checks.md), [live proof](live-page.png) and [deployment](https://github.com/SuperlabsAU/sprite-tester/actions/runs/38197782236).

@@ -1,6 +1,6 @@
 # GitHub source repository
 
-Verified 12 October 2026: [SuperlabsAU/sprite-tester](https://github.com/SuperlabsAU/sprite-tester) remains public. The corrected Game Studio method E is live from `main` at commit `0ceb70d12f1ef98ae536b0c6a65a05ccb4a7d6f6`; its initial addition was `9659130cff0d0f08eb2d5288d0e09c55803f4e83`. The original four-method snapshot was `ac08fe1a1d23050f58513ac1b3cadf1177ea00d4`.
+Verified 12 October 2026: [SuperlabsAU/sprite-tester](https://github.com/SuperlabsAU/sprite-tester) remains public. The appearance-restored Game Studio method E is live from `main` at commit `ee201f06539d3c708e4baa373811e9b453b1edb5`; its initial addition was `9659130cff0d0f08eb2d5288d0e09c55803f4e83`. The original four-method snapshot was `ac08fe1a1d23050f58513ac1b3cadf1177ea00d4`.
 
 The publishing checkout is `.local-tools/sprite-tester-publish` within this workspace. It combines the root project's tracked assets and scripts with the separate `site/` repository. Both original local repositories retain their existing histories. Use the publishing checkout or a fresh GitHub clone for future uploads; do not push either original repository's unrelated history over the public branch.
 
@@ -33,3 +33,11 @@ E now contains 96 frames; the comparison totals 384. A prompt-only retry failed 
 The published browser rendered all 20 viewers at walk F5, run F8, jump apex F5 and landing F8. E's timeline accepts frame 8 in every action; A–D cards display their own six-frame indices. Metadata supplies corrected travel distances. No console errors were observed. Desktop/mobile local checks and live proof are in `runs/e/revision-2/`; playback was returned to walk, 1×, ground travel. Raster rotation, segment deformation and held-pose stepping remain documented limitations.
 
 The original local repositories retain commits `19c6e7c` (rig/art records) and `93fdd8b` (site). The public release evidence is recorded in a subsequent documentation-only commit.
+
+## E appearance restoration — 12 October 2026
+
+[Deployment run 38197782236](https://github.com/SuperlabsAU/sprite-tester/actions/runs/38197782236) succeeded in 29 seconds for commit `ee201f06539d3c708e4baa373811e9b453b1edb5`. The user selected A as the aesthetic reference. E now retains A’s native head artwork (including the RPG collar/shoulders) and uses regenerated clothing/limb textures anchored to A, fuller limbs and broader overhead body. Generated atlas extraction excludes fragments from neighbouring cells; street neckline and raised RPG shoulder joins are connected.
+
+The eight-pose rig is unchanged. All frames, durations, labels, stride and lift values match revision 2. Eleven tests pass; independent review confirms all 96 silhouettes are connected at alpha>128. Pixel audits confirm 22,128 opaque A head/collar pixels match and all 48 A–D strips retain their hashes. The result still has angular cut-out motion and texture deformation, disclosed in the comparison.
+
+After deployment, the live in-app browser rendered all 20 viewers at walk F1, run F8 and jump F5. A and revised E were compared at the desktop breakpoint; raised RPG shoulders were visible and connected. No console errors were observed. Live proof and A/before/after artwork are in `runs/e/revision-3/`; playback was restored to walk, 1×, ground travel and temporary viewport overrides were reset. Local implementation commits are `0a5e835` (artwork/scripts/docs) and `e56dc56` (site). Live evidence is uploaded separately in a documentation-only commit.
