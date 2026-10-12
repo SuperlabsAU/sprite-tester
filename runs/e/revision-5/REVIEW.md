@@ -1,0 +1,7 @@
+# Pixel repair review — 12 October 2026
+
+An independent reviewer inspected all 96 original frames, the isolated anatomical layers and all 96 before/after/addition comparisons. The review confirmed the repeated street spectacle-lens hole and holes within articulated knees. It found no broad overfill in the proposed comparisons and confirmed that the large isometric walk-frame-1 gap between the legs remained open.
+
+The review found an additional open three-pixel RPG sleeve slit in walk frame 6 at (21,34), (22,34), (23,34). These were subsequently added with exact native sleeve colours and included in the final audit. A composite-only interpretation initially confused five platform walk-frame-8 knee pixels with inter-leg space; inspecting the isolated right leg established that they were actual internal holes. Nearby one-pixel shin notches were reviewed as appropriate seam repairs. Street jumping-arm background above the forearm is preserved.
+
+The repair regression check failed against the unpatched strips, then passed after the exporter applied the manifest. Full verification compares every RGBA pixel, confirms every visible hole enclosed by a single anatomical layer is covered, checks selected intentional negative spaces, and verifies unchanged existing artwork and motion. All twelve rig/playback tests pass. Visual findings are separate from these numerical checks; the tests do not certify a flawless hand-drawn animation.

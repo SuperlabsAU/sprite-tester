@@ -1,0 +1,7 @@
+{
+  "rpg-walk/6": [
+    {"x":21,"y":34,"rgba":[33,31,33,255],"layer":"head","donor":[21,33],"reason":"Hand-filled open sleeve seam between fixed collar and moving arm"},
+    {"x":22,"y":34,"rgba":[36,34,35,255],"layer":"head","donor":[22,33],"reason":"Hand-filled open sleeve seam between fixed collar and moving arm"},
+    {"x":23,"y":34,"rgba":[36,34,35,255],"layer":"head","donor":[23,33],"reason":"Hand-filled open sleeve seam between fixed collar and moving arm"}
+  ]
+}

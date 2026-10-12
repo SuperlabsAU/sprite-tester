@@ -1,0 +1,1589 @@
+{
+  "date": "2026-10-12",
+  "framesChecked": 96,
+  "rgbaPixelsChecked": 688128,
+  "addedPixels": 589,
+  "existingVisiblePixelsUnchanged": 82994,
+  "isolatedAnatomicalHoles": "all covered",
+  "intentionalNegativeSpaceRegressions": "passed",
+  "motionAndSourceGeometry": "unchanged",
+  "frames": [
+    {
+      "clip": "platform-walk",
+      "frame": 1,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 2,
+      "pixelsAdded": 3,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            36,
+            40
+          ]
+        ],
+        [
+          [
+            37,
+            43
+          ]
+        ],
+        [
+          [
+            31,
+            52
+          ],
+          [
+            32,
+            52
+          ],
+          [
+            30,
+            53
+          ],
+          [
+            31,
+            53
+          ],
+          [
+            31,
+            54
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 3,
+      "pixelsAdded": 3,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 4,
+      "pixelsAdded": 6,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 5,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            26,
+            41
+          ]
+        ],
+        [
+          [
+            27,
+            42
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 6,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 7,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-walk",
+      "frame": 8,
+      "pixelsAdded": 9,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            27,
+            41
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 1,
+      "pixelsAdded": 9,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            35,
+            38
+          ],
+          [
+            35,
+            39
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 2,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            37,
+            40
+          ],
+          [
+            38,
+            40
+          ],
+          [
+            39,
+            40
+          ],
+          [
+            37,
+            41
+          ],
+          [
+            38,
+            41
+          ],
+          [
+            38,
+            42
+          ],
+          [
+            39,
+            42
+          ],
+          [
+            39,
+            43
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 3,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-run",
+      "frame": 4,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            32,
+            47
+          ],
+          [
+            31,
+            48
+          ],
+          [
+            32,
+            48
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "platform-run",
+      "frame": 5,
+      "pixelsAdded": 6,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-run",
+      "frame": 6,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-run",
+      "frame": 7,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-run",
+      "frame": 8,
+      "pixelsAdded": 11,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            28,
+            39
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 1,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            34,
+            39
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 2,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 3,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 4,
+      "pixelsAdded": 8,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 5,
+      "pixelsAdded": 8,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            34,
+            29
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 6,
+      "pixelsAdded": 6,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 7,
+      "pixelsAdded": 3,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "platform-jump",
+      "frame": 8,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            34,
+            39
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 1,
+      "pixelsAdded": 3,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "street-walk",
+      "frame": 2,
+      "pixelsAdded": 15,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            54,
+            78
+          ],
+          [
+            55,
+            78
+          ],
+          [
+            54,
+            79
+          ],
+          [
+            55,
+            79
+          ],
+          [
+            54,
+            80
+          ],
+          [
+            55,
+            80
+          ],
+          [
+            54,
+            81
+          ],
+          [
+            55,
+            81
+          ],
+          [
+            56,
+            81
+          ],
+          [
+            54,
+            82
+          ],
+          [
+            55,
+            82
+          ],
+          [
+            56,
+            82
+          ],
+          [
+            55,
+            83
+          ],
+          [
+            56,
+            83
+          ],
+          [
+            57,
+            83
+          ],
+          [
+            56,
+            84
+          ]
+        ],
+        [
+          [
+            63,
+            83
+          ]
+        ],
+        [
+          [
+            64,
+            106
+          ],
+          [
+            65,
+            106
+          ],
+          [
+            62,
+            107
+          ],
+          [
+            64,
+            107
+          ],
+          [
+            65,
+            107
+          ],
+          [
+            61,
+            108
+          ],
+          [
+            62,
+            108
+          ],
+          [
+            63,
+            108
+          ],
+          [
+            64,
+            108
+          ],
+          [
+            65,
+            108
+          ],
+          [
+            61,
+            109
+          ],
+          [
+            62,
+            109
+          ],
+          [
+            63,
+            109
+          ],
+          [
+            64,
+            109
+          ],
+          [
+            65,
+            109
+          ],
+          [
+            60,
+            110
+          ],
+          [
+            61,
+            110
+          ],
+          [
+            62,
+            110
+          ],
+          [
+            63,
+            110
+          ],
+          [
+            64,
+            110
+          ],
+          [
+            65,
+            110
+          ],
+          [
+            66,
+            110
+          ],
+          [
+            61,
+            111
+          ],
+          [
+            62,
+            111
+          ],
+          [
+            63,
+            111
+          ],
+          [
+            64,
+            111
+          ],
+          [
+            65,
+            111
+          ],
+          [
+            66,
+            111
+          ],
+          [
+            63,
+            112
+          ],
+          [
+            64,
+            112
+          ],
+          [
+            65,
+            112
+          ],
+          [
+            66,
+            112
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 3,
+      "pixelsAdded": 14,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "street-walk",
+      "frame": 4,
+      "pixelsAdded": 13,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            62,
+            112
+          ]
+        ],
+        [
+          [
+            64,
+            113
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 5,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "street-walk",
+      "frame": 6,
+      "pixelsAdded": 11,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            64,
+            106
+          ],
+          [
+            64,
+            107
+          ],
+          [
+            64,
+            108
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 7,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            63,
+            82
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-walk",
+      "frame": 8,
+      "pixelsAdded": 7,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            55,
+            76
+          ],
+          [
+            54,
+            77
+          ],
+          [
+            55,
+            77
+          ],
+          [
+            54,
+            78
+          ],
+          [
+            55,
+            78
+          ],
+          [
+            54,
+            79
+          ],
+          [
+            55,
+            79
+          ],
+          [
+            56,
+            79
+          ],
+          [
+            54,
+            80
+          ],
+          [
+            55,
+            80
+          ],
+          [
+            56,
+            80
+          ],
+          [
+            54,
+            81
+          ],
+          [
+            55,
+            81
+          ],
+          [
+            56,
+            81
+          ]
+        ],
+        [
+          [
+            63,
+            81
+          ]
+        ],
+        [
+          [
+            72,
+            81
+          ],
+          [
+            73,
+            81
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 1,
+      "pixelsAdded": 13,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "street-run",
+      "frame": 2,
+      "pixelsAdded": 8,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            57,
+            79
+          ],
+          [
+            57,
+            80
+          ],
+          [
+            57,
+            81
+          ],
+          [
+            57,
+            82
+          ],
+          [
+            58,
+            82
+          ],
+          [
+            58,
+            83
+          ],
+          [
+            58,
+            84
+          ],
+          [
+            59,
+            84
+          ],
+          [
+            60,
+            84
+          ],
+          [
+            59,
+            85
+          ]
+        ],
+        [
+          [
+            64,
+            104
+          ],
+          [
+            64,
+            105
+          ],
+          [
+            65,
+            105
+          ],
+          [
+            66,
+            105
+          ],
+          [
+            65,
+            106
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 3,
+      "pixelsAdded": 8,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            73,
+            82
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 4,
+      "pixelsAdded": 12,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "street-run",
+      "frame": 5,
+      "pixelsAdded": 7,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            65,
+            83
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 6,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "street-run",
+      "frame": 7,
+      "pixelsAdded": 13,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            70,
+            86
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-run",
+      "frame": 8,
+      "pixelsAdded": 9,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            57,
+            73
+          ],
+          [
+            57,
+            74
+          ],
+          [
+            57,
+            75
+          ],
+          [
+            57,
+            76
+          ],
+          [
+            58,
+            76
+          ],
+          [
+            57,
+            77
+          ],
+          [
+            58,
+            77
+          ],
+          [
+            58,
+            78
+          ],
+          [
+            59,
+            78
+          ],
+          [
+            58,
+            79
+          ]
+        ],
+        [
+          [
+            76,
+            78
+          ],
+          [
+            77,
+            78
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 1,
+      "pixelsAdded": 14,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            63,
+            86
+          ]
+        ],
+        [
+          [
+            64,
+            111
+          ],
+          [
+            65,
+            111
+          ],
+          [
+            64,
+            112
+          ],
+          [
+            65,
+            112
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 2,
+      "pixelsAdded": 11,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            63,
+            82
+          ]
+        ],
+        [
+          [
+            64,
+            110
+          ],
+          [
+            64,
+            111
+          ],
+          [
+            64,
+            112
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 3,
+      "pixelsAdded": 12,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            63,
+            76
+          ]
+        ],
+        [
+          [
+            64,
+            102
+          ],
+          [
+            65,
+            102
+          ],
+          [
+            64,
+            103
+          ],
+          [
+            65,
+            103
+          ],
+          [
+            64,
+            104
+          ],
+          [
+            65,
+            104
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 4,
+      "pixelsAdded": 12,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            63,
+            70
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 5,
+      "pixelsAdded": 9,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "street-jump",
+      "frame": 6,
+      "pixelsAdded": 14,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            63,
+            70
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 7,
+      "pixelsAdded": 12,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            63,
+            76
+          ]
+        ],
+        [
+          [
+            64,
+            102
+          ],
+          [
+            65,
+            102
+          ],
+          [
+            64,
+            103
+          ],
+          [
+            65,
+            103
+          ],
+          [
+            64,
+            104
+          ],
+          [
+            65,
+            104
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "street-jump",
+      "frame": 8,
+      "pixelsAdded": 14,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            63,
+            86
+          ]
+        ],
+        [
+          [
+            64,
+            111
+          ],
+          [
+            65,
+            111
+          ],
+          [
+            64,
+            112
+          ],
+          [
+            65,
+            112
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 1,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            26,
+            37
+          ]
+        ],
+        [
+          [
+            30,
+            46
+          ],
+          [
+            31,
+            46
+          ],
+          [
+            32,
+            46
+          ],
+          [
+            30,
+            47
+          ],
+          [
+            31,
+            47
+          ],
+          [
+            32,
+            47
+          ],
+          [
+            30,
+            48
+          ],
+          [
+            31,
+            48
+          ],
+          [
+            32,
+            48
+          ],
+          [
+            32,
+            49
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 2,
+      "pixelsAdded": 3,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 3,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 4,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 5,
+      "pixelsAdded": 3,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 6,
+      "pixelsAdded": 10,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 7,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-walk",
+      "frame": 8,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            32,
+            44
+          ],
+          [
+            32,
+            45
+          ],
+          [
+            32,
+            46
+          ],
+          [
+            32,
+            47
+          ],
+          [
+            33,
+            47
+          ],
+          [
+            32,
+            48
+          ],
+          [
+            32,
+            49
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 1,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 2,
+      "pixelsAdded": 3,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 3,
+      "pixelsAdded": 3,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 4,
+      "pixelsAdded": 6,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 5,
+      "pixelsAdded": 7,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 6,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 7,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-run",
+      "frame": 8,
+      "pixelsAdded": 7,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            29,
+            39
+          ]
+        ],
+        [
+          [
+            33,
+            40
+          ],
+          [
+            33,
+            41
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 1,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 2,
+      "pixelsAdded": 6,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 3,
+      "pixelsAdded": 3,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 4,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 5,
+      "pixelsAdded": 9,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 6,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 7,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "isometric-jump",
+      "frame": 8,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 1,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            24,
+            41
+          ],
+          [
+            25,
+            41
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 2,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            24,
+            41
+          ],
+          [
+            25,
+            41
+          ],
+          [
+            24,
+            42
+          ],
+          [
+            25,
+            42
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 3,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            24,
+            40
+          ],
+          [
+            23,
+            41
+          ],
+          [
+            24,
+            41
+          ],
+          [
+            25,
+            41
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 4,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            25,
+            41
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 5,
+      "pixelsAdded": 6,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 6,
+      "pixelsAdded": 11,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            25,
+            41
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 7,
+      "pixelsAdded": 6,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            24,
+            40
+          ],
+          [
+            23,
+            41
+          ],
+          [
+            24,
+            41
+          ],
+          [
+            25,
+            41
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-walk",
+      "frame": 8,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            24,
+            40
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 1,
+      "pixelsAdded": 3,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            26,
+            42
+          ]
+        ],
+        [
+          [
+            24,
+            43
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 2,
+      "pixelsAdded": 6,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            24,
+            43
+          ],
+          [
+            25,
+            43
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 3,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            25,
+            41
+          ],
+          [
+            26,
+            41
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 4,
+      "pixelsAdded": 5,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            25,
+            38
+          ]
+        ],
+        [
+          [
+            26,
+            39
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 5,
+      "pixelsAdded": 7,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 6,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 7,
+      "pixelsAdded": 8,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            26,
+            41
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-run",
+      "frame": 8,
+      "pixelsAdded": 8,
+      "remainingCompositeNegativeSpaces": [
+        [
+          [
+            26,
+            39
+          ]
+        ],
+        [
+          [
+            24,
+            40
+          ]
+        ]
+      ]
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 1,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 2,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 3,
+      "pixelsAdded": 0,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 4,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 5,
+      "pixelsAdded": 4,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 6,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 7,
+      "pixelsAdded": 7,
+      "remainingCompositeNegativeSpaces": []
+    },
+    {
+      "clip": "rpg-jump",
+      "frame": 8,
+      "pixelsAdded": 2,
+      "remainingCompositeNegativeSpaces": []
+    }
+  ]
+}

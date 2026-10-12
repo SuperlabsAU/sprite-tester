@@ -67,3 +67,7 @@ The rig correction changed the face, hair and proportions too far from A. E now 
 ## E whole-character correction — 12 October 2026
 
 Revision 3 restored the face but retained the wrong body proportions. E now reuses A’s full character artwork with view-specific joints, upright contacts, native clothing volume and correctly sized trainers. Anatomical masks, stable arm lengths, full-length texture donors and shirt backing correct the deformation and shoulder gaps found during independent review. E is explicitly labelled as A artwork with corrected motion. All 96 frames were reviewed; 12 rig/playback tests and raster checks pass. See [revision 4](runs/e/revision-4/README.md), [comparison](runs/e/revision-4/appearance-comparison.png) and [review](runs/e/revision-4/REVIEW.md).
+
+### E pixel gap cleanup — 12 October 2026
+
+[Revision 5](runs/e/revision-5/README.md) inspects all 96 E frames and applies 589 reviewed pixel additions at spectacle, clothing and joint gaps. All original visible pixels, motion and A–D comparisons are preserved. The exporter uses a hash-guarded exact repair manifest; the audit checks all 688,128 RGBA pixels. Before/after/added-pixel sheets and independent review are included.
